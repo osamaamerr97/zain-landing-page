@@ -1,0 +1,11 @@
+{
+    "navbar":{
+        "Home":"Home",
+        "About_Us":"About Us",
+        "Services":"Services",
+        "Destinations":"Destinations",
+        "Be_Our_Agent":"Be Our Agent",
+        "Faqs":"Faqs",
+        "Contact_Us":"Contact Us"
+    }
+}
