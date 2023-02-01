@@ -87,7 +87,7 @@ export default {
         code: 'en',
         file: 'en.json',
         name:'English',
-        dir: 'rtl'
+        dir: 'ltr'
 
         
       },
@@ -95,7 +95,7 @@ export default {
         code: 'ar',
         file: 'ar.json',
         name:'Arabic',
-        dir: 'ltr'
+        dir: 'rtl'
 
 
       }

@@ -2,44 +2,44 @@
     <div class="contact">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-lg-6">
                     <div class="contact-info">
                         <h2>Contact Us</h2>
                         <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
     
                         <div class="contacts-details">
                             <div class="row contact-ways" >
-                                    <div class="col-2">
+                                    <div class="col-12 col-md-2">
                                         <div class="icon">
                                             <font-awesome-icon icon="fa-solid fa-phone-volume" />    
     
                                         </div>
                                     </div>
-                                    <div class="col-10">
+                                    <div class="col-12 col-md-10">
                                         <div class="contact-title">Phone</div>
                                         <div class="contact-des">+90 554 710 50 34</div>
                                     </div>
                                 </div>
                                 <div class="row contact-ways" >
-                                    <div class="col-2">
+                                    <div class="col-12 col-md-2">
                                         <div class="icon">
                                             <font-awesome-icon icon="fa-solid fa-envelope" />    
     
                                         </div>
                                     </div>
-                                    <div class="col-10">
+                                    <div class="col-12 col-md-10">
                                         <div class="contact-title">Email</div>
                                         <div class="contact-des">info@alzeinglobal.com</div>
                                     </div>
                                 </div>
                                 <div class="row contact-ways" >
-                                    <div class="col-2">
+                                    <div class="col-12 col-md-2">
                                         <div class="icon">
                                             <font-awesome-icon icon="fa-solid fa-location-dot" />    
     
                                         </div>
                                     </div>
-                                    <div class="col-10">
+                                    <div class="col-12 col-md-10">
                                         <div class="contact-title">Location</div>
                                         <div class="contact-des">Port Saeed Business Avenue Tower Office 916 Dubai/UAE</div>
                                     </div>
@@ -48,7 +48,7 @@
 
                     </div>
                 </div>
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-lg-6">
                     <div class="contact-form">
                         <form>
                             <div class="mb-5">
@@ -162,5 +162,21 @@ button{
     color: #FFF;
     border: none;
     font-size: 1.375rem;
+}
+@media screen and (max-width:820px) {
+    .contact{
+        text-align: center;
+        padding-top: 2.5rem;
+        padding-bottom: 2rem;
+    }   
+    h2{
+        font-size: 3.375rem;
+    }    
+    .icon{
+        margin: auto;
+    }
+    .contact-form{
+        margin-top: 15px;
+    }
 }
 </style>

@@ -2,7 +2,7 @@
     <div class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-sm-2 col-lg-4">
+                <div class="col-12 col-sm-6 col-lg-4">
                     <div class="footer-logo">
                         <img src="@/assets/images/logo.png" alt="">
                             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by</p>
@@ -16,7 +16,7 @@
                 
                     </div>
                 </div>
-                <div class="col-12 col-sm-2 col-lg-2">
+                <div class="col-12 col-sm-6 col-lg-2">
                     <h6>About</h6>       
                     <ul>
                         <li>About Us</li>
@@ -24,7 +24,7 @@
                         <li>Faqs</li>
                     </ul>             
                 </div>
-                <div class="col-12 col-sm-2 col-lg-2">
+                <div class="col-12 col-sm-6 col-lg-2">
                     <h6>Pages</h6>       
                     <ul>
                         <li>Privacy Policy</li>
@@ -33,18 +33,12 @@
                     </ul>             
                     
                 </div>
-                <div class="col-12 col-sm-2 col-lg-4">
-                    <h6>Get Apps On!</h6>       
-                    <ul>
-                        <li>
-                            <button class="active"> <i class="fa-brands fa-apple"></i>Apps Store</button>
-                        </li>
-                        <li>
-                            <button> <i class="fa-brands fa-google-play"></i>Apps Store</button>
-                            
-                        </li>
-                    </ul>
-
+                <div class="col-12 col-sm-6 col-lg-4 store">
+                    <h6>Get Apps On! &nbsp;&nbsp;&nbsp;&nbsp;</h6>     
+                        
+                            <button class="active"> <font-awesome-icon icon="fa-brands fa-apple " class="mx-3" />Apps Store</button>                      
+                        
+                            <button> <font-awesome-icon icon="fa-brands fa-google-play"  class="mx-3"  />Google Play</button>                          
                 </div>
             </div>
         </div>
@@ -59,10 +53,10 @@ export default {
 .footer{
     background-color: #6C429A   ;
     padding-top: 8.688rem;
-    padding-bottom: 0.938rem;
+    padding-bottom: 5rem;
 }    
 .footer-logo{
-    width: 70%;
+    width: 90%;
 }
 p,h6{
     font-size: 1.375rem;
@@ -103,15 +97,36 @@ ul li{
     color: #FFFFFF;
     opacity: 0.5;
 }
-ul li button{
+ button{
     border-radius: 15px;
-    border: none;
+    border: 1px solid #FFF;
     width: 13.75rem;
     height:  5.313rem;
-    color: #FFF !important  ;
-}
-ul li button.active{
-    background-color: #97D3BF;
+    background-color: transparent;
+    opacity: 1;
+    font-size: 1.388rem;
+    margin: 5px 0;
+    color: #FFF;
 
+
+}
+ button.active{
+    background-color: #97D3BF;
+    margin: 2.813rem 0 0 0 ;
+    border: none;
+
+}
+.store{
+    text-align: right;
+}
+@media screen and (max-width:820px) {
+    .footer{
+        text-align: center;
+        padding-top: 4.688rem;
+
+    }
+    .footer-logo{
+        width: 100%;
+    }
 }
 </style>

@@ -42,4 +42,17 @@ p{
     margin-bottom: 3rem;
     width: 50%;
 }
+@media screen and (max-width:820px) {
+    p{
+        width: 100%;
+    }
+    img{
+        margin-top: 10px;
+    }
+    .destinations{
+    padding-bottom: 5.375rem;
+    padding-top: 3.125rem;
+
+}  
+}
 </style>

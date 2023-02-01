@@ -1,7 +1,7 @@
 <template lang="">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-lg-6">
                 <div class="head-content" >
                     <h4>Welcome to</h4>
                     <h1>Zeni Global</h1>
@@ -9,7 +9,7 @@
                     <button>Read More</button>
                 </div>
             </div>
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-lg-6">
                 <img src="~/assets/images/Group 31.png" class="w-100 h-100" alt="">
             </div>   
         </div>

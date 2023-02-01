@@ -5,7 +5,7 @@
             <HomeHead></HomeHead>
         </div>
         <AboutUs></AboutUs>
-        <!-- <OurServices></OurServices> -->
+        <OurServices></OurServices>
         <Destinations></Destinations>
         <Faqs></Faqs>
         <ContactUs></ContactUs>
