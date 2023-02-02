@@ -1,7 +1,7 @@
 <template >
     <div class="faqs">
         <div class="container">
-            <div class="row gx-5">
+            <div class="row ">
                 <div class="col-12 col-lg-6">
                     <img src="../assets/images/magnifying-glass-with-question-mark-focus-wooden-background-concept-search-research-research-searching-investigating-something.png"  class="w-100" alt="">                
                 </div>

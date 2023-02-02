@@ -131,5 +131,8 @@ a{
     .footer-logo{
         width: 100%;
     }
+    .store{
+        text-align: center;
+    }
 }
 </style>

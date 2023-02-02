@@ -1,10 +1,10 @@
 <template>
-    <div class="container-fluid">
+    <div class="">
         <div class="our-services">
+            <div class="container">
             <h2>Our Services</h2>
             <p class="serices-des">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
            
-          <div class="container">
                        
             <no-ssr> <!-- important to add no-ssr-->
               <carousel :autoplay="true" :responsive="{0:{items:1,nav:false},600:{items:2,nav:false},1000:{items:4,nav:true}}"  :nav="true" :dots="false">

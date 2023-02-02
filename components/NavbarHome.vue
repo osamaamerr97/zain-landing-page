@@ -1,8 +1,8 @@
 <template lang="">
     <div>
         <nav class="navbar navbar-expand-lg navbar-light">
-          <div class="container p-0">
-            <nuxt-link class="navbar-brand pb-0" to="/">
+          <div class="container">
+            <nuxt-link class="navbar-brand" to="/">
               <div class="logo" >
                 <img src="~/assets/images/logo.png" alt="">
               </div>
@@ -43,9 +43,9 @@
                 </li>
 
               </ul>
+              <button class="contact-btn">{{ $t("navbar.Contact_Us") }}</button>
 
 
-              <button class="">{{ $t("navbar.Contact_Us") }}</button>
             </div>
           </div>
         </nav>
@@ -64,7 +64,7 @@ export default {
   opacity: 1;
   background-color: #6C429A;
 }
-button{
+.contact-btn{
   width: 11.563rem;
   height: 4rem;
   background-color: transparent;
