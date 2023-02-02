@@ -39,6 +39,7 @@
     background-position: center center;
     background-size: 100% 100%;
     padding-bottom: 8.313rem;
+    color: #FFF;
 
 }  
 .privacy-head{
@@ -67,19 +68,3 @@
     margin-bottom: 9.875rem;
 }
 </style>
-
-<!-- <template >
-    <div class="container">
-        <h1>Privacy Policy</h1>
-        <p>Home / Privacy Policy</p>
-        
-    </div>
-</template>
-<script>
-export default {
-    
-}
-</script>
-<style >
-    
-</style> -->

@@ -43,7 +43,7 @@
                 </li>
 
               </ul>
-              <button class="contact-btn">{{ $t("navbar.Contact_Us") }}</button>
+              <button class="navbar-contact-btn">{{ $t("navbar.Contact_Us") }}</button>
 
 
             </div>
@@ -58,20 +58,6 @@ export default {
 </script>
 
 <style scoped> 
-.navbar{
-  font-size: 1.25rem;
-  font-weight: normal;
-  opacity: 1;
-  background-color: #6C429A;
-}
-.contact-btn{
-  width: 11.563rem;
-  height: 4rem;
-  background-color: transparent;
-  border: 0.125rem solid #FFFFFF;
-  border-radius: 0.938rem;
-  opacity: 1;
-  color: #FFFFFF;
-}
+
 </style>
 
