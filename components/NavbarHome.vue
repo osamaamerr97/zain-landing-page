@@ -62,6 +62,7 @@ export default {
   font-size: 1.25rem;
   font-weight: normal;
   opacity: 1;
+  background-color: #6C429A;
 }
 button{
   width: 11.563rem;

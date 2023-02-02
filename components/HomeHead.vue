@@ -1,17 +1,20 @@
 <template lang="">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-lg-6">
-                <div class="head-content" >
-                    <h4>Welcome to</h4>
-                    <h1>Zeni Global</h1>
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-                    <button>Read More</button>
+    <div class="head">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <div class="head-content" >
+                        <h4>Welcome to</h4>
+                        <h1>Zeni Global</h1>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                        <button>Read More</button>
+                    </div>
                 </div>
+                <div class="col-12 col-lg-6">
+                    <img src="~/assets/images/Group 31.png" class="w-100 h-100" alt="">
+                </div>   
             </div>
-            <div class="col-12 col-lg-6">
-                <img src="~/assets/images/Group 31.png" class="w-100 h-100" alt="">
-            </div>   
         </div>
     </div>
 </template>
@@ -21,7 +24,13 @@ export default {
 }
 </script>
 <style scoped>
- 
+  .head{
+    background-image: url('../assets/images/background.png');
+    background-position: center center;
+    background-size: 100% 100%;
+    padding-bottom: 8.313rem;
+
+}  
 .row{
     padding-top:3.125rem;
 }

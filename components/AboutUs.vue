@@ -58,8 +58,10 @@ export default {
     padding-top: 3.563rem;
     padding-bottom: 11.125rem;
 } 
+
 .second-imag{
     text-align: right;
+    height: 100%;
 } 
 
 .first-row{
@@ -82,6 +84,9 @@ export default {
     }
     .serices-des{
         width: 100%;
+    }
+    .about-content{
+        padding-top: 1rem;
     }
 }
  

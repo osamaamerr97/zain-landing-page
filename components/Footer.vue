@@ -27,7 +27,7 @@
                 <div class="col-12 col-sm-6 col-lg-2">
                     <h6>Pages</h6>       
                     <ul>
-                        <li>Privacy Policy</li>
+                        <li><nuxt-link to="/PrivacyPolicy">Privacy Policy</nuxt-link></li>
                         <li>Help Center</li>
                         <li>Refund Policy</li>
                     </ul>             
@@ -90,12 +90,15 @@ ul{
     padding: 0;
     list-style: none;
 }
-ul li{
+ul li, ul li a{
     font-size: 1.563rem;
     letter-spacing: 0px;
     margin-top: 1rem;
     color: #FFFFFF;
     opacity: 0.5;
+}
+a{
+    text-decoration: none;
 }
  button{
     border-radius: 15px;

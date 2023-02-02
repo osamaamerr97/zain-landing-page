@@ -30,10 +30,14 @@ export default {
   plugins: [
     {src: '~/plugins/bootstrap.js', mode: 'client'},
     '~/plugins/fontawesome.js',
-    // {src: 'plugins/owl.js', ssr: false} // Only works on client side
+    {src: 'plugins/owl.js', ssr: false} // Only works on client side
 
 
   ],
+
+  router: {
+    middleware: 'language'
+  },
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -111,5 +115,6 @@ export default {
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
+  build: {}
+
 }

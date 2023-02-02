@@ -12,4 +12,46 @@
     
 
 .active-link{
-    color: #97D3BF;}
+    color: #97D3BF;
+}
+
+.owl-carousel.owl-loaded{
+    /* background-color: red !important; */
+    padding: 15px 0; 
+    position: relative;
+}    
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next {
+    background: #869791 !important;
+    color: #FFF !important;
+    text-decoration: none !important;
+    position: absolute !important;
+
+    background-color: transparent !important;
+    width: 60px !important;
+    height: 60px !important;
+    border-radius: 50% !important;
+    font-size: 35px !important;
+    border: 1px solid #707070 !important;
+    border-radius: 30px !important;
+    color: black !important;
+    padding-bottom: 5px;    
+
+}
+.owl-carousel .owl-nav button.owl-next span,
+.owl-carousel .owl-nav button.owl-prev span{
+    display: inline-block;
+    width: 50px;
+    height: 100px;
+}
+
+.owl-carousel .owl-nav button.owl-prev{
+    left: -72px !important;
+    top: 50% !important;
+
+}
+.owl-carousel .owl-nav button.owl-next{
+    right:  -72px !important;
+    top: 50% !important;
+
+}
