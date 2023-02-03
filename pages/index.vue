@@ -13,9 +13,9 @@
 import HomeHead from '@/components/HomeHead.vue';
 import AboutUs from '@/components/AboutUs.vue';
 import OurServices from '@/components/OurServices.vue';
-import Destinations from '../../components/Destinations.vue';
-import Faqs from '../../components/Faqs.vue';
-import ContactUs from '../../components/ContactUs.vue';
+import Destinations from '../components/Destinations.vue';
+import Faqs from '../components/Faqs.vue';
+import ContactUs from '../components/ContactUs.vue';
 
 export default {
     name:"landing-page",

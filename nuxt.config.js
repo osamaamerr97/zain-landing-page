@@ -36,7 +36,8 @@ export default {
   ],
 
   router: {
-    middleware: 'language'
+    base: '/landing-page/',
+    // middleware: 'language'
   },
 
   // Auto import components: https://go.nuxtjs.dev/config-components
