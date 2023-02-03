@@ -1,10 +1,11 @@
 export default function ({ isHMR, app, route, params, error, redirect }) {
 
-      if(route.fullPath == '/PrivacyPolicy'){
-        return redirect(`/${app.i18n.locale}/PrivacyPolicy`)
-      }else if(route.fullPath == '/'){
+      const lang = ''
+      if(route.fullPath == '/landing-page/PrivacyPolicy'){
+        return redirect(`/${app.i18n.locale}/landing-page/PrivacyPolicy`)
+      }else if(route.fullPath == '/landing-page'){
         
-        return redirect(`/${app.i18n.locale}/`)
+        return redirect(`/${app.i18n.locale}/landing-page`)
       }
 
   }

@@ -35,7 +35,7 @@
 </script>
 <style scoped>
  .head{
-    background-image: url('../assets/images/background.png');
+    background-image: url('@/assets/images/background.png');
     background-position: center center;
     background-size: 100% 100%;
     padding-bottom: 8.313rem;

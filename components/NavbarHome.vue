@@ -2,7 +2,7 @@
     <div>
         <nav class="navbar navbar-expand-lg navbar-light">
           <div class="container">
-            <nuxt-link class="navbar-brand" to="/">
+            <nuxt-link class="navbar-brand" to="/landing-page">
               <div class="logo" >
                 <img src="~/assets/images/logo.png" alt="">
               </div>
@@ -14,30 +14,30 @@
               <ul class="navbar-nav m-auto">
                 <li class="nav-item">
                   <!-- <nuxt-link class="nav-link" aria-current="page" :to="localePath('index')">{{ $t("navbar.Home") }}</nuxt-link> -->
-                  <nuxt-link class="nav-link active-link" aria-current="page" to="/">{{ $t("navbar.Home") }}</nuxt-link>
+                  <nuxt-link class="nav-link active-link" aria-current="page" to="/landing-page">{{ $t("navbar.Home") }}</nuxt-link>
                 </li>
                 <li class="nav-item">
-                  <nuxt-link class="nav-link" aria-current="page" to="/">{{ $t("navbar.About_Us") }}</nuxt-link>
+                  <nuxt-link class="nav-link" aria-current="page" to="/landing-page">{{ $t("navbar.About_Us") }}</nuxt-link>
                   <!-- <nuxt-link class="nav-link" aria-current="page" :to="localePath('/')">{{ $t("navbar.About_Us") }}</nuxt-link> -->
 
                 </li>
                 <li class="nav-item">
-                  <nuxt-link class="nav-link" aria-current="page" to="/">{{ $t("navbar.Services") }}</nuxt-link>
+                  <nuxt-link class="nav-link" aria-current="page" to="/landing-page">{{ $t("navbar.Services") }}</nuxt-link>
                   <!-- <nuxt-link class="nav-link" aria-current="page" :to="localePath('/')">{{ $t("navbar.Services") }}</nuxt-link> -->
 
                 </li>
                 <li class="nav-item">
-                  <nuxt-link class="nav-link" aria-current="page" to="/">{{ $t("navbar.Destinations") }}</nuxt-link>
+                  <nuxt-link class="nav-link" aria-current="page" to="/landing-page">{{ $t("navbar.Destinations") }}</nuxt-link>
                   <!-- <nuxt-link class="nav-link" aria-current="page" :to="localePath('/')">{{ $t("navbar.Destinations") }}</nuxt-link> -->
 
                 </li>
                 <li class="nav-item">
-                  <nuxt-link class="nav-link" aria-current="page" to="/">{{ $t("navbar.Be_Our_Agent") }}</nuxt-link>
+                  <nuxt-link class="nav-link" aria-current="page" to="/landing-page">{{ $t("navbar.Be_Our_Agent") }}</nuxt-link>
                   <!-- <nuxt-link class="nav-link" aria-current="page" :to="localePath('/')">{{ $t("navbar.Be_Our_Agent") }}</nuxt-link> -->
 
                 </li>
                 <li class="nav-item">
-                  <nuxt-link class="nav-link" aria-current="page" to="/">{{ $t("navbar.Faqs") }}</nuxt-link>
+                  <nuxt-link class="nav-link" aria-current="page" to="/landing-page">{{ $t("navbar.Faqs") }}</nuxt-link>
                   <!-- <nuxt-link class="nav-link" aria-current="page" :to="localePath('/')">{{ $t("navbar.Faqs") }}</nuxt-link> -->
 
                 </li>

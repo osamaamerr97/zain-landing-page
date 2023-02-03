@@ -1,5 +1,3 @@
-
-
 <template>
   <div :dir="getPageDirection">
     <NavbarHome/>

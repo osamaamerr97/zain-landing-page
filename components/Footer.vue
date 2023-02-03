@@ -19,18 +19,18 @@
                 <div class="col-12 col-sm-6 col-lg-2">
                     <h6 class="footer-titles">{{ $t("Footer.About") }}</h6>       
                     <ul>
-                        <li><nuxt-link to="/">{{ $t("Footer.About_Us") }}</nuxt-link></li>
-                        <li><nuxt-link to="/">{{ $t("Footer.Contact_Us") }}</nuxt-link></li>
-                        <li><nuxt-link to="/">{{ $t("Footer.Faqs") }}</nuxt-link></li>
+                        <li><nuxt-link to="/landing-page">{{ $t("Footer.About_Us") }}</nuxt-link></li>
+                        <li><nuxt-link to="/landing-page">{{ $t("Footer.Contact_Us") }}</nuxt-link></li>
+                        <li><nuxt-link to="/landing-page">{{ $t("Footer.Faqs") }}</nuxt-link></li>
   
                     </ul>             
                 </div>
                 <div class="col-12 col-sm-6 col-lg-2">
                     <h6 class="footer-titles">{{ $t("Footer.Pages") }}</h6>       
                     <ul>
-                        <li><nuxt-link to="/PrivacyPolicy">{{ $t("Footer.Privacy_Policy") }}</nuxt-link></li>
-                        <li><nuxt-link to="/">{{ $t("Footer.Help_Center") }}</nuxt-link></li>
-                        <li><nuxt-link to="/">{{ $t("Footer.Refund_Policy") }}</nuxt-link></li>
+                        <li><nuxt-link to="/landing-page/PrivacyPolicy">{{ $t("Footer.Privacy_Policy") }}</nuxt-link></li>
+                        <li><nuxt-link to="/landing-page">{{ $t("Footer.Help_Center") }}</nuxt-link></li>
+                        <li><nuxt-link to="/landing-page">{{ $t("Footer.Refund_Policy") }}</nuxt-link></li>
 
     
                     </ul>            
