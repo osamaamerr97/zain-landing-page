@@ -3,7 +3,7 @@ export default {
   head: {
     title: 'new-zain',
     htmlAttrs: {
-     
+      
     },
     meta: [
       { charset: 'utf-8' },

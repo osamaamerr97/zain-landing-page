@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row about-first-row">
                 <div class="col-12 col-lg-6">
-                    <img src="../assets/images/chad-peltola-Rch8oP-O5sU-unsplash.png" class="w-75" alt="">
+                    <img src="../assets/images/chad-peltola-Rch8oP-O5sU-unsplash.png" class="about-first-image" alt="">
                 </div>
                 <div class="col-12 col-lg-6 d-flex align-items-center">
                     <div class="about-content">
@@ -120,8 +120,10 @@ export default {
   }
 }
 .accordion:dir(rtl){
-    .accordion__title:dir(rtl){
+    .accordion__title{
         background-position: left 0.75rem top 3rem;
+        padding: 0.875rem 0.875rem 0.875rem  2.5rem;
+
     
       }
 

@@ -1,7 +1,7 @@
 
 
 <template>
-  <div>
+  <div :dir="getPageDirection">
     <NavbarHome/>
     <Nuxt />
     <Footer></Footer>
@@ -16,6 +16,14 @@ export default{
   comments:{
     NavbarHome,
     Footer
+  },
+  computed:{
+    getPageDirection() {
+      if (this.$i18n.locale == "ar") {
+        return "rtl";
+      }
+      return "ltr";
+    },
   }
 }
 </script>

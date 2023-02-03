@@ -19,23 +19,26 @@
                 <div class="col-12 col-sm-6 col-lg-2">
                     <h6 class="footer-titles">{{ $t("Footer.About") }}</h6>       
                     <ul>
-                        <li>{{ $t("Footer.About_Us") }}</li>
-                        <li>{{ $t("Footer.Contact_Us") }}</li>
-                        <li>{{ $t("Footer.Faqs") }}</li>
+                        <li><nuxt-link to="/">{{ $t("Footer.About_Us") }}</nuxt-link></li>
+                        <li><nuxt-link to="/">{{ $t("Footer.Contact_Us") }}</nuxt-link></li>
+                        <li><nuxt-link to="/">{{ $t("Footer.Faqs") }}</nuxt-link></li>
+  
                     </ul>             
                 </div>
                 <div class="col-12 col-sm-6 col-lg-2">
                     <h6 class="footer-titles">{{ $t("Footer.Pages") }}</h6>       
                     <ul>
                         <li><nuxt-link to="/PrivacyPolicy">{{ $t("Footer.Privacy_Policy") }}</nuxt-link></li>
-                        <li>{{ $t("Footer.Help_Center") }}</li>
-                        <li>{{ $t("Footer.Refund_Policy") }}</li>
+                        <li><nuxt-link to="/">{{ $t("Footer.Help_Center") }}</nuxt-link></li>
+                        <li><nuxt-link to="/">{{ $t("Footer.Refund_Policy") }}</nuxt-link></li>
+
+    
                     </ul>            
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4 store">
                     <h6 class="footer-titles">{{ $t("Footer.Get_Apps_On") }} &nbsp;&nbsp;&nbsp;&nbsp;</h6>                             
-                        <button class="active"> <font-awesome-icon icon="fa-brands fa-apple " class="mx-3" />{{ $t("Footer.Apps_Store") }} </button>                
-                        <button> <font-awesome-icon icon="fa-brands fa-google-play"  class="mx-3"  />{{ $t("Footer.Google_play") }} </button>                          
+                        <button class="active"> <font-awesome-icon icon="fa-brands fa-apple " class=" icon mx-3" />{{ $t("Footer.Apps_Store") }} </button>                
+                        <button> <font-awesome-icon icon="fa-brands fa-google-play"  class="icon mx-3"  />{{ $t("Footer.Google_play") }} </button>                          
                 </div>
             </div>
         </div>
