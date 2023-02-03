@@ -43,6 +43,11 @@
                 </li>
 
               </ul>
+                             <nuxt-link
+                            v-for="locale in availableLocales"
+                            :key="locale.code"
+                            class="lang"
+                            :to="switchLocalePath(locale.code)">{{ locale.name }}</nuxt-link>
               <button class="navbar-contact-btn">{{ $t("navbar.Contact_Us") }}</button>
 
 
@@ -53,11 +58,36 @@
 </template>
 <script>
 export default {
-  name:"NavbarHome"
+  name:"NavbarHome",
+  data() {
+        return {
+            // language:'English',
+            selectedLocale: ''
+        }
+    },
+    computed: {
+        availableLocales () {
+            return this.$i18n.locales.filter(i => i.code !== this.$i18n.locale)
+        },
+        currentLanguage() {
+             return this.$i18n.locale
+        }
+    },
+    methods: {
+        changeLocale() {
+          this.$router.push(this.switchLocalePath(this.selectedLocale))
+          
+        }
+        
+    }
 }
 </script>
 
 <style scoped> 
-
+.lang{
+  color: #FFF;
+  margin: 0 8px;
+  border-bottom: 2px solid #FFF;
+}
 </style>
 

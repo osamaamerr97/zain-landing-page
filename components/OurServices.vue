@@ -1,8 +1,8 @@
 <template>
     <div class="our-services">
         <div class="container">
-            <h2 class="serices-title">Our Services</h2>
-            <p class="serices-description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+            <h2 class="serices-title">{{ $t("Services.Our_Services") }}</h2>
+            <p class="serices-description">{{ $t("Services.serices_des") }}</p>
         
                     
             <no-ssr> <!-- important to add no-ssr-->
@@ -12,8 +12,8 @@
                             <div class="service-icon-container">
                                 <font-awesome-icon icon="fa-solid fa-hotel" class="service-icon"/>
                             </div>
-                        <h6 class="service-title">Features Name</h6>
-                        <p class="service-des">There are many variations of passages of Lorem Ipsum available</p>
+                        <h6 class="service-title">{{ $t("Services.Hotel_reservations") }}</h6>
+                        <p class="service-des">{{ $t("Services.sevice_des") }}</p>
                         </div>
                     </div>
                     <div class="service mx-2">
@@ -21,8 +21,8 @@
                             <div class="service-icon-container">
                                 <font-awesome-icon icon="fa-solid fa-plane" class="service-icon"/>
                             </div>
-                        <h6 class="service-title">Features Name</h6>
-                        <p class="service-des">There are many variations of passages of Lorem Ipsum available</p>
+                        <h6 class="service-title">{{ $t("Services.flight_reservations") }}</h6>
+                        <p class="service-des">{{ $t("Services.sevice_des") }}</p>
                         </div>
                     </div>
                     <div class="service mx-2">
@@ -30,8 +30,8 @@
                             <div class="service-icon-container">
                                 <font-awesome-icon icon="fa-solid fa-hotel" class="service-icon"/>
                             </div>
-                        <h6 class="service-title">Features Name</h6>
-                        <p class="service-des">There are many variations of passages of Lorem Ipsum available</p>
+                        <h6 class="service-title">{{ $t("Services.Medical_Tourism") }}</h6>
+                        <p class="service-des">{{ $t("Services.sevice_des") }}</p>
                         </div>
                     </div>
                     <div class="service mx-2">
@@ -39,8 +39,8 @@
                             <div class="service-icon-container">
                                 <font-awesome-icon icon="fa-solid fa-plane" class="service-icon"/>
                             </div>
-                        <h6 class="service-title">Features Name</h6>
-                        <p class="service-des">There are many variations of passages of Lorem Ipsum available</p>
+                        <h6 class="service-title">{{ $t("Services.Tourist_trips_by_private_car") }}</h6>
+                        <p class="service-des">{{ $t("Services.sevice_des") }}</p>
                         </div>
                     </div>
                     <div class="service mx-2">
@@ -48,8 +48,8 @@
                             <div class="service-icon-container">
                                 <font-awesome-icon icon="fa-solid fa-hotel" class="service-icon"/>
                             </div>
-                        <h6 class="service-title">Features Name</h6>
-                        <p class="service-des">There are many variations of passages of Lorem Ipsum available</p>
+                        <h6 class="service-title">{{ $t("Services.Tourist_trips_with_groups") }}</h6>
+                        <p class="service-des">{{ $t("Services.sevice_des") }}</p>
                         </div>
                     </div>
                     <div class="service mx-2">
@@ -57,8 +57,8 @@
                             <div class="service-icon-container">
                                 <font-awesome-icon icon="fa-solid fa-plane" class="service-icon"/>
                             </div>
-                        <h6 class="service-title">Features Name</h6>
-                        <p class="service-des">There are many variations of passages of Lorem Ipsum available</p>
+                        <h6 class="service-title">{{ $t("Services.Transfers_and_tours") }}</h6>
+                        <p class="service-des">{{ $t("Services.sevice_des") }}</p>
                         </div>
                     </div>
                     <div class="service mx-2">
@@ -66,8 +66,8 @@
                             <div class="service-icon-container">
                                 <font-awesome-icon icon="fa-solid fa-hotel" class="service-icon"/>
                             </div>
-                        <h6 class="service-title">Features Name</h6>
-                        <p class="service-des">There are many variations of passages of Lorem Ipsum available</p>
+                        <h6 class="service-title">{{ $t("Services.Hotel_reservations") }}</h6>
+                        <p class="service-des">{{ $t("Services.sevice_des") }}</p>
                         </div>
                     </div>
                     <div class="service mx-2">
@@ -75,8 +75,8 @@
                             <div class="service-icon-container">
                                 <font-awesome-icon icon="fa-solid fa-plane" class="service-icon"/>
                             </div>
-                        <h6 class="service-title">Features Name</h6>
-                        <p class="service-des">There are many variations of passages of Lorem Ipsum available</p>
+                        <h6 class="service-title">{{ $t("Services.flight_reservations") }}</h6>
+                        <p class="service-des">{{ $t("Services.sevice_des") }}</p>
                         </div>
                     </div>
                 </carousel>

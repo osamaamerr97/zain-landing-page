@@ -3,7 +3,7 @@ export default {
   head: {
     title: 'new-zain',
     htmlAttrs: {
-      lang: 'en',
+     
     },
     meta: [
       { charset: 'utf-8' },
@@ -93,6 +93,7 @@ export default {
         name:'English',
         dir: 'ltr'
 
+
         
       },
       {
@@ -100,7 +101,6 @@ export default {
         file: 'ar.json',
         name:'Arabic',
         dir: 'rtl'
-
 
       }
     ],

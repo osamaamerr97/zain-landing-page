@@ -1,8 +1,8 @@
 <template >
     <div class="container text-center">
         <div class="destinations">
-            <h2 class="destinations-title">Destinations</h2>
-            <p class="destinations-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos magni delectus dolorum porro qui quam, magnam veniam.</p>
+            <h2 class="destinations-title">{{ $t("Destinations.destinations") }}</h2>
+            <p class="destinations-description">{{ $t("Destinations.destinations_des") }}</p>
         
             <div class="row">
                 <div class="col-12 col-md-4">

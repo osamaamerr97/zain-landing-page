@@ -7,5 +7,97 @@
         "Be_Our_Agent":"Be Our Agent",
         "Faqs":"Faqs",
         "Contact_Us":"Contact Us"
+    },
+    "Home_Head":{
+        "Welcome_to":"Welcome to",
+        "Zeni_Global":"Zeni Global",
+        "head_des":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+        "Read_More":"Read More"
+
+    },
+    "About":{
+        "ABOUT_US":"ABOUT US",
+        "Zeni_Global":"Zeni Global",
+        "About_p1":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+        "About_p2":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+        "Read_More":"Read More",
+        "ZENI_GLOBAL_Team":"ZENI GLOBAL",
+        "Vision&Team":"Vision & Team",
+        "our_vision":"Our Vision",
+        "our_vision_des":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+        "our_team":"Our Team",
+        "our_team_des":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
+    
+    },
+    "Services":{
+        "Our_Services":"Our Services",
+        "serices_des":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+        "service_title":"Features Name",
+        "sevice_des":"There are many variations of passages of Lorem Ipsum available",
+        "Hotel_reservations":"Hotel Reservations",
+        "flight_reservations":"Flight Reservations",
+        "Medical_Tourism":"Medical Tourism",
+        "Tourist_trips_by_private_car":"Tourist trips by private car",
+        "Tourist_trips_with_groups":"Tourist trips with groups",
+        "Transfers_and_tours":"Transfers and tours"
+
+    
+    },
+    "Destinations":{
+        "destinations":"Destinations",
+        "destinations_des":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
+    },
+    "Faqs":{
+        "QuestionsAndAnswers":"Questions And Answers",
+        "Question1":"What is Netflix?",
+        "Answer1":"Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
+        "Question2":"What is Netflix?",
+        "Answer2":"Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
+        "Question3":"What is Netflix?",
+        "Answer3":"Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices."
+    },
+    "Contact":{
+        "Contact_Us":"Contact Us",
+        "contact_des":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+        "Phone":"Phone",
+        "Email":"Email",
+        "Location":"Location",
+        "Form_Send_Now":"Send Now",
+        "Form_Full_Name":"Full Name",
+        "Form_E-Mail":"E-Mail",
+        "Form_Phone_Number":"Phone Number",
+        "Form_Write_YourMessage_Here":"Write YourMessage Here"
+
+
+    },
+    "Footer":{
+        "des":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+        "About":"About",
+        "About_Us":"About Us",
+        "Contact_Us":"Contact Us",
+        "Faqs":"Faqs",
+        "Pages":"Pages",
+        "Privacy_Policy":"Privacy Policy",
+        "Help_Center":"Help Center",
+        "Refund_Policy":"Refund Policy",
+        "Get_Apps_On":"Get Apps On!",
+        "Apps_Store":"Apps Store",
+        "Google_play":"Google play"
+
+
+    },
+    "Privacy":{
+        "Privacy_Policy":"Privacy Policy",
+        "Home/Privacy Policy":"Home / Privacy Policy",
+        "part1_head":"Now you can check your online presence by the following ways",
+        "part1_des":"We denounce with righteous indige nation and dislike men who are so beguiled and demo realized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue cannot foresee. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled data structures manages data in technology.",
+        "part2_head":"Physiotherapy improves walking in people",
+        "part2_des1":"Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. Souvlaki ignitus carborundum e pluribus unum. Defacto lingo est igpay atinlay. Marquee selectus non provisio incongruous feline nolo contendre. Gratuitous octopus niacin, sodium glutimate. Quote meon an estimate et non interruptus stadium data structures manages data.",
+        "part2_des2":"Another challenge for these founders is that formulating products for women of colour can require extra layers of testing, given the short history of research and development for darker skin tones. Breaux tested her UnSun products on 12 different skin tones. Epara went back and forth with its biochemist for years.",
+        "part3_head":"Four major elements that we offer:",
+        "part3_des1":"Lorem Ipsum is has been the industry’s stasn ndard dummy text ever since the 1500s, when an unknown printer took a galley of it to make. Lorem Ipsum is the simply dummy text of the printing and typesetting industry. When you are designing with Lorem Ipsum, you diminish the importance of the copy by lowering it to the same level as any other visual element. The text simply becomes another supporting role, serving to make other aspects more aesthetic. Instead of your design enhancing the meaning of the content, your content is enhancing your design.",
+        "part3_des2":"We denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain.",
+        "part3_des3":"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur."
+
     }
 }

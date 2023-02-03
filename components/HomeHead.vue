@@ -4,10 +4,10 @@
             <div class="row">
                 <div class="col-12 col-lg-6">
                     <div class="head-content" >
-                        <h4 class="head-span">Welcome to</h4>
-                        <h1 class="head-title">Zeni Global</h1>
-                        <p class="head-description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-                        <button class="head-btn">Read More</button>
+                        <h4 class="head-span">{{ $t("Home_Head.Welcome_to") }}</h4>
+                        <h1 class="head-title">{{ $t("Home_Head.Zeni_Global") }}</h1>
+                        <p class="head-description">{{ $t("Home_Head.head_des") }}</p>
+                        <button class="head-btn">{{ $t("Home_Head.Read_More") }}</button>
                     </div>
                 </div>
                 <div class="col-12 col-lg-6">

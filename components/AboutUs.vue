@@ -7,36 +7,36 @@
                 </div>
                 <div class="col-12 col-lg-6 d-flex align-items-center">
                     <div class="about-content">
-                        <h4 class="about-span">ABOUT US</h4>
-                        <h2 class="about-title">Zeni Global</h2>
-                        <p class="about-description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-                        <p class=" about-description about-second-description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in </p>
-                        <button class="about-btn">Read More</button>
+                        <h4 class="about-span">{{ $t("About.ABOUT_US") }}</h4>
+                        <h2 class="about-title">{{ $t("About.Zeni_Global") }}</h2>
+                        <p class="about-description">{{ $t("About.About_p1") }}</p>
+                        <p class=" about-description about-second-description">{{ $t("About.About_p2") }} </p>
+                        <button class="about-btn">{{ $t("About.Read_More") }}</button>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-12 col-lg-6">
                     <div>
-                        <h4 class="about-span">ZENI GLOBALS</h4>
-                        <h2 class="about-title">Vision & Team</h2>
+                        <h4 class="about-span">{{ $t("About.ZENI_GLOBAL_Team") }}</h4>
+                        <h2 class="about-title">{{ $t("About.Vision&Team") }}</h2>
                         <div class="about-collaps">
                             <details class="accordion">
                                 <summary class="accordion__title">
                                     <font-awesome-icon icon="fa-solid fa-eye" class="about-icon" />
-                                    Our Vission
+                                    {{ $t("About.our_vision") }}
                                 </summary>
                                 <div class="accordion__content">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales, nulla sit amet porttitor rhoncus, lacus ex vestibulum libero, ac mollis neque ante id justo. Nam tempor euismod nisi ac ornare. Pellentesque id sapien lacinia, venenatis est aliquam, dignissim elit. Suspendisse potenti. Cras ut ante in libero tempus sodales sed quis dolor.</p>
+                                    <p>{{ $t("About.our_vision_des") }}</p>
                                 </div>
                             </details>
                             <details class="accordion">
                                 <summary class="accordion__title">
                                     <font-awesome-icon icon="fa-solid fa-people-group" class="about-icon"/>
-                                        Our team
+                                    {{ $t("About.our_team") }}
                                 </summary>
                                 <div class="accordion__content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales, nulla sit amet porttitor rhoncus, lacus ex vestibulum libero, ac mollis neque ante id justo. Nam tempor euismod nisi ac ornare. Pellentesque id sapien lacinia, venenatis est aliquam, dignissim elit. Suspendisse potenti. Cras ut ante in libero tempus sodales sed quis dolor.</p>
+                                <p>{{ $t("About.our_team_des") }}</p>
                                 </div>
                             </details>
                         </div>
@@ -95,6 +95,7 @@ export default {
     }
   }
 
+
   .accordion__content {
     padding: 0 1rem 1rem 7rem;
     p {
@@ -118,5 +119,13 @@ export default {
     }
   }
 }
+.accordion:dir(rtl){
+    .accordion__title:dir(rtl){
+        background-position: left 0.75rem top 3rem;
+    
+      }
+
+}
+
 
 </style>

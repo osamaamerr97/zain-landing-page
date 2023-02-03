@@ -4,8 +4,8 @@
             <div class="row">
                 <div class="col-12 col-lg-6">
                     <div class="contact-info">
-                        <h2 class="contact-container-title">Contact Us</h2>
-                        <p class="contact-container-description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
+                        <h2 class="contact-container-title">{{ $t("Contact.Contact_Us") }}</h2>
+                        <p class="contact-container-description">{{ $t("Contact.contact_des") }}</p>
     
                         <div class="contacts-details">
                             <div class="row contact-ways" >
@@ -16,7 +16,7 @@
                                         </div>
                                     </div>
                                     <div class="col-12 col-md-10">
-                                        <div class="contact-title">Phone</div>
+                                        <div class="contact-title">{{ $t("Contact.Phone") }}</div>
                                         <div class="contact-des">+90 554 710 50 34</div>
                                     </div>
                              </div>
@@ -28,7 +28,7 @@
                                         </div>
                                     </div>
                                     <div class="col-12 col-md-10">
-                                        <div class="contact-title">Email</div>
+                                        <div class="contact-title">{{ $t("Contact.Email") }}</div>
                                         <div class="contact-des">info@alzeinglobal.com</div>
                                     </div>
                             </div>
@@ -40,7 +40,7 @@
                                         </div>
                                     </div>
                                     <div class="col-12 col-md-10">
-                                        <div class="contact-title">Location</div>
+                                        <div class="contact-title">{{ $t("Contact.Location") }}</div>
                                         <div class="contact-des">Port Saeed Business Avenue Tower Office 916 Dubai/UAE</div>
                                     </div>
                             </div>
@@ -51,18 +51,18 @@
                     <div class="contact-form">
                         <form>
                             <div class="mb-5">
-                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Full Name">
+                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" :placeholder="$t('Contact.Form_Full_Name')">
                             </div>
                             <div class="mb-5">
-                                <input type="email" class="form-control" id="exampleInputPassword1" placeholder="E-Mail">
+                                <input type="email" class="form-control" id="exampleInputPassword1" :placeholder="$t('Contact.Form_E-Mail')">
                             </div>
                             <div class="mb-5">
-                                <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Phone Number">
+                                <input type="number" class="form-control" id="exampleInputPassword1" :placeholder="$t('Contact.Form_Phone_Number')">
                             </div>
                             <div class="mb-5">
-                                <textarea class="form-control" placeholder="Write YourMessage Here" id="floatingTextarea"></textarea>
+                                <textarea class="form-control" :placeholder="$t('Contact.Form_Write_YourMessage_Here')" id="floatingTextarea"></textarea>
                             </div>
-                            <button type="submit" class="">Send Now</button>
+                            <button type="submit" class="">{{ $t("Contact.Form_Send_Now") }}</button>
                         </form>
                     </div>
                 </div>

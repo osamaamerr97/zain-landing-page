@@ -5,7 +5,7 @@
                 <div class="col-12 col-sm-6 col-lg-4">
                     <div class="footer-logo">
                         <img src="@/assets/images/logo.png" alt="">
-                            <p class="footer-des">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by</p>
+                            <p class="footer-des">{{ $t("Footer.des") }}</p>
                         
                             <div class="social">
                                 <span><img src="@/assets/images/facebook.png" alt=""></span>
@@ -17,25 +17,25 @@
                     </div>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-2">
-                    <h6 class="footer-titles">About</h6>       
+                    <h6 class="footer-titles">{{ $t("Footer.About") }}</h6>       
                     <ul>
-                        <li>About Us</li>
-                        <li>Contact Us</li>
-                        <li>Faqs</li>
+                        <li>{{ $t("Footer.About_Us") }}</li>
+                        <li>{{ $t("Footer.Contact_Us") }}</li>
+                        <li>{{ $t("Footer.Faqs") }}</li>
                     </ul>             
                 </div>
                 <div class="col-12 col-sm-6 col-lg-2">
-                    <h6 class="footer-titles">Pages</h6>       
+                    <h6 class="footer-titles">{{ $t("Footer.Pages") }}</h6>       
                     <ul>
-                        <li><nuxt-link to="/PrivacyPolicy">Privacy Policy</nuxt-link></li>
-                        <li>Help Center</li>
-                        <li>Refund Policy</li>
+                        <li><nuxt-link to="/PrivacyPolicy">{{ $t("Footer.Privacy_Policy") }}</nuxt-link></li>
+                        <li>{{ $t("Footer.Help_Center") }}</li>
+                        <li>{{ $t("Footer.Refund_Policy") }}</li>
                     </ul>            
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4 store">
-                    <h6 class="footer-titles">Get Apps On! &nbsp;&nbsp;&nbsp;&nbsp;</h6>                             
-                        <button class="active"> <font-awesome-icon icon="fa-brands fa-apple " class="mx-3" />Apps Store</button>                
-                        <button> <font-awesome-icon icon="fa-brands fa-google-play"  class="mx-3"  />Google Play</button>                          
+                    <h6 class="footer-titles">{{ $t("Footer.Get_Apps_On") }} &nbsp;&nbsp;&nbsp;&nbsp;</h6>                             
+                        <button class="active"> <font-awesome-icon icon="fa-brands fa-apple " class="mx-3" />{{ $t("Footer.Apps_Store") }} </button>                
+                        <button> <font-awesome-icon icon="fa-brands fa-google-play"  class="mx-3"  />{{ $t("Footer.Google_play") }} </button>                          
                 </div>
             </div>
         </div>
