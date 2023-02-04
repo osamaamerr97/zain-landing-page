@@ -1,7 +1,7 @@
 <template>
     <div class="home-head">
         <div class="container">
-            <div class="row">
+            <div class="row align-items-center">
                 <div class="col-12 col-lg-6">
                     <div class="head-content" >
                         <h4 class="head-span">{{ $t("Home_Head.Welcome_to") }}</h4>

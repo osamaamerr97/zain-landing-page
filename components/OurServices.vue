@@ -1,7 +1,7 @@
 <template>
     <div class="our-services">
         <div class="container">
-            <h2 class="serices-title">{{ $t("Services.Our_Services") }}</h2>
+            <h2 class="about-title">{{ $t("Services.Our_Services") }}</h2>
             <p class="serices-description">{{ $t("Services.serices_des") }}</p>
         
                     
@@ -95,5 +95,8 @@ export default{
 }
 </script>
 <style scoped>
-
+    .service-icon{
+        height: 1.8em;
+        color: #b288e0;
+    }
 </style>

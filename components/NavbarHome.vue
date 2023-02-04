@@ -39,13 +39,10 @@
                   <!-- <nuxt-link class="nav-link" aria-current="page" :to="localePath('/')">{{ $t("navbar.Faqs") }}</nuxt-link> -->
 
                 </li>
-
+                <li  class="nav-item" v-for="locale in availableLocales" :key="locale.code">
+                  <nuxt-link class="nav-link lang" :to="switchLocalePath(locale.code)">{{ locale.name }}</nuxt-link>
+                </li>
               </ul>
-                             <nuxt-link
-                            v-for="locale in availableLocales"
-                            :key="locale.code"
-                            class="lang"
-                            :to="switchLocalePath(locale.code)">{{ locale.name }}</nuxt-link>
               <button class="navbar-contact-btn">{{ $t("navbar.Contact_Us") }}</button>
 
 

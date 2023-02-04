@@ -1,8 +1,8 @@
 <template >
     <div class="container text-center">
         <div class="destinations">
-            <h2 class="destinations-title">{{ $t("Destinations.destinations") }}</h2>
-            <p class="destinations-description">{{ $t("Destinations.destinations_des") }}</p>
+            <h2 class="about-title">{{ $t("Destinations.destinations") }}</h2>
+            <p class="serices-description">{{ $t("Destinations.destinations_des") }}</p>
         
             <div class="row">
                 <div class="col-12 col-md-4">

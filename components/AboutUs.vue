@@ -73,21 +73,19 @@ export default {
   .accordion__title {
     list-style-type: none;
     cursor: pointer;
-    font-size: 1.75rem;
+    font-size: 1.25rem;
+    font-weight: 400;
     font-weight: normal;
     color: #6C429A;
     padding: 0.875rem 2.5rem 0.875rem 0.875rem;
     background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='32' height='32' viewBox='0 0 32 32' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M23.024 11.263l-7.024 7.023-7.022-7.023-3.091 3.090 8.569 8.569c0.413 0.413 0.961 0.64 1.545 0.64s1.133-0.228 1.545-0.64l8.569-8.569-3.091-3.090z' fill='%23555555'/%3e%3c/svg%3e");
     background-repeat: no-repeat;
-    background-position: right 0.75rem top 3rem;
-    background-size: 1.5rem;
-    // overflow: hidden;
-    // text-overflow: ellipsis;
-    // white-space: nowrap;
-    height:7.5rem;
-    width:100%;
+    background-position-y: center;
+    background-size: 1.6rem;
+    width: 100%;
     display: flex;
     align-items: center;
+    background-position-x: 94%;
 
     &::marker,
     &::-webkit-details-marker {
@@ -97,10 +95,10 @@ export default {
 
 
   .accordion__content {
-    padding: 0 1rem 1rem 7rem;
+    padding: 0 1rem 1rem 6rem;
     p {
         margin: 0;   
-         font-size: 1.3rem;
+         font-size: 1rem;
         color: #484451;
        letter-spacing: 0px;
     }
@@ -110,7 +108,7 @@ export default {
   }
 
   &[open] {
-    background-color: #FAF9FC;
+    background-color: #fff;
     border-color: #ebebeb;
     // max-height: 50em;
     
@@ -128,6 +126,4 @@ export default {
       }
 
 }
-
-
 </style>

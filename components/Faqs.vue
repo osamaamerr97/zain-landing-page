@@ -2,11 +2,11 @@
     <div class="faqs">
         <div class="container">
             <div class="row ">
-                <div class="col-12 col-lg-6">
+                <div class="col-12 col-lg-5">
                     <img src="../assets/images/magnifying-glass-with-question-mark-focus-wooden-background-concept-search-research-research-searching-investigating-something.png"  class="w-100" alt="">                
                 </div>
-                <div class="col-12 col-lg-6">
-                    <h2 class="faqs-title">{{ $t("Faqs.QuestionsAndAnswers") }}</h2>
+                <div class="col-12 col-lg-7 section-faq">
+                    <h2 class="about-title mb-5">{{ $t("Faqs.QuestionsAndAnswers") }}</h2>
 
                         <ul class="faq-accordion text-md">
                             <li>
@@ -56,5 +56,11 @@ export default {
 }
 </script>
 <style scoped>
-
+@media screen and (min-width:1199px){
+    .section-faq{
+        padding-left: 60px!important;
+        padding-right: 18px!important;
+        padding-top: 50px!important;
+    }
+}
 </style>

@@ -10,7 +10,7 @@
     },
     
     "Home_Head":{
-        "Welcome_to":"اهلا بكم",
+        "Welcome_to":"أهلا بكم",
         "Zeni_Global":"زين",
         "head_des":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
         "Read_More":"اقرأ المزيد"
@@ -30,7 +30,7 @@
     },
     "Services":{
         "Our_Services":"خدماتنا",
-        "serices_des":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+        "serices_des":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form",
         "service_title":"Features Name",
         "sevice_des":"There are many variations of passages of Lorem Ipsum available",
         "Hotel_reservations":"حجوزات الفنادق",
@@ -43,10 +43,10 @@
     },
     "Destinations":{
         "destinations":"الوجهات",
-        "destinations_des":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
+        "destinations_des":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form"
     },
     "Faqs":{
-        "QuestionsAndAnswers":"الاسئلة والإجابات",
+        "QuestionsAndAnswers":"الأسئلة المكررة",
         "Question1":"What is Netflix?",
         "Answer1":"Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
         "Question2":"What is Netflix?",
@@ -56,7 +56,7 @@
     },
     "Contact":{
         "Contact_Us":"تواصل معنا",
-        "contact_des":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+        "contact_des":"في الزين جلوبال نعتمد مقاييس عالمية متعددة لمدى تلبية منتجات الشركة وخدماتها وفريق خدمات العملاء لتوقعات العملاء.",
         "Phone":"رقم الهاتف",
         "Email":"الإيميل",
         "Location":"الموقع",

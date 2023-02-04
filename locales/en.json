@@ -31,7 +31,7 @@
     },
     "Services":{
         "Our_Services":"Our Services",
-        "serices_des":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+        "serices_des":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form",
         "service_title":"Features Name",
         "sevice_des":"There are many variations of passages of Lorem Ipsum available",
         "Hotel_reservations":"Hotel Reservations",
@@ -45,7 +45,7 @@
     },
     "Destinations":{
         "destinations":"Destinations",
-        "destinations_des":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
+        "destinations_des":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form"
     },
     "Faqs":{
         "QuestionsAndAnswers":"Questions And Answers",

@@ -1,10 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600&family=Tajawal:wght@400;700&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-    
+*:not(.fa, svg, i) {
+    font-family: 'Poppins', sans-serif !important;
+} 
+[dir=rtl] *:not(.fa, svg, i) {
+    font-family: 'Tajawal', sans-serif !important;
+} 
 a,
 li {
   text-decoration: none;
@@ -55,8 +60,15 @@ li {
     top: 40% !important;
 
 }
+[dir="rtl"] .owl-carousel .owl-nav button.owl-next {
+    right: 100% !important;
+}
+
+.owl-stage-outer {
+    direction: ltr;
+}
 .owl-carousel .owl-nav button.owl-next:dir(rtl){
-    right:    100% !important;
+    left:    100% !important;
 }
 /*navbar*/
 .navbar{
@@ -66,17 +78,27 @@ li {
     background-color: #6C429A;
 }
 .navbar-contact-btn{
-    width: 11.563rem;
-    height: 4rem;
     background-color: transparent;
-    border: 0.125rem solid #FFFFFF;
+    border: 1px solid #FFFFFF;
     border-radius: 0.938rem;
     opacity: 1;
     color: #FFFFFF;
+    padding: 17px 25px;
+    font-weight: 400;
+    font-size: 15px;
 }
 .navbar-contact-btn:hover{
     background-color: #97D3BF;
     
+}
+nav li.nav-item, .lang {
+    margin: 0 10px;
+}
+nav li.nav-item a, .lang{
+    font-size: 16px;
+}
+.logo img{
+    width: 80px;
 }
 .nav-link{
     color: #FFF;
@@ -114,24 +136,21 @@ li {
     color: #FFF;
     font-family: 'Poppins', sans-serif !important;
 } 
-.head-content{
-    padding-bottom: 6.25rem;
-}
 .head-span{
     color: #97D3BF;
     padding-top: 1.875rem;
-    font-size: 2.813rem;
+    font-size: 2.013rem;
 }
 .head-title{
     padding: 0px 0 1.25rem 0;
     font-weight: 900;
-    font-size: 5.625rem;
+    font-size: 4.025rem;
     margin: 0;
 }
 .head-description{
     opacity: 0.5;
     padding-bottom: 2.188rem;
-    font-size: 1.563rem;
+    font-size: 1.063rem;
     letter-spacing: 0px;
     font-weight: normal;
     margin: 0;
@@ -141,9 +160,10 @@ li {
     border-radius: 15px;
     color: #FFF;
     border: none;
-    font-size: 1.188rem;
-    width: 13.75rem;
-    height: 5.313rem;
+    padding: 20px 35px;
+    font-weight: 400;
+    font-size: 15px;
+    border: 1px solid #97D3BF;
 }
 .head-btn:hover{
     background-color: transparent;
@@ -155,19 +175,20 @@ li {
     padding-bottom: 11.688rem;
 }
 .about-span{
-    font-size: 2.813rem;
+    font-size: 2.213rem;
     font-weight: normal;
     letter-spacing: 0px;
     color: #97D3BF;
     text-transform: uppercase;
 }
 .about-title{
-    font-size: 4.063rem;
+    font-size: 3.325rem;
     letter-spacing: 0px;
     color: #484451;
+    font-weight: 700;
 }
 .about-description{
-    font-size: 1.625rem;
+    font-size: 1.325rem;
     color: #484451;
     letter-spacing: 0px;
 }
@@ -191,13 +212,14 @@ li {
 } 
 
 .about-btn{
-    width: 13.75rem;
-    height: 5.313rem;
+    
+    padding: 20px 35px;
+    font-weight: 400;
+    font-size: 15px;
     background-color: #6C429A;
     border-radius: 15px; 
     border: none;
     color: #FFF;
-    font-size: 1.188rem;
 }
 .about-btn:hover{
 
@@ -207,15 +229,14 @@ li {
 .about-icon{
     background-color: #6C429A;
     color: #FFF;
-    padding: 20px;
-    font-size: 45px;
+    padding: 15px;
+    font-size: 24px;
     border-radius: 15px;
-    margin-right: 10px;
+    margin-right: 25px;
     
 }  
 .about-icon:dir(rtl){
-    margin-left: 0;
-    margin-left: 10px;
+    margin-left: 25px;
 
 }
 .about-collaps{
@@ -252,7 +273,7 @@ li {
     color: #484451;
 }  
 .serices-description{
-    font-size: 1.625rem;
+    font-size: 1.125rem;
     margin: auto;
     margin-bottom: 3rem;
     width: 50%;
@@ -261,15 +282,15 @@ li {
     background-color: #FFF;
     border-radius: 20px;
     /* width: 22.125rem; */
-    height: 22.813rem;
+    /* height: 2.013rem2.813rem; */
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 0.5rem;
+    padding: 2.8rem 0.8rem;
 }
 .service-icon-container{
-    width: 6.563rem;
-    height: 6.563rem;
+    width: 4.513rem;
+    height: 4.513rem;
     background-color: #6C429A;
     border-radius: 1000px;
     display: flex;
@@ -278,19 +299,20 @@ li {
     color: #FFF;
   margin: auto;
 }
-.service-icon{
-  font-size: 2.813rem;
-}
+/* .service-icon{
+  font-size: 2.013rem;
+} */
 .service-title{
-  font-size: 1.75rem;
-  margin-top: 2rem;
-  margin-bottom: 1.563rem;
-  color: #484451;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 1.563rem;
+    color: #484451;
 
 }
 .service-des{
     color: #484451;
-    font-size: 1.25rem;
+    font-size: 0.9rem;
 }
 
 @media screen and (max-width:820px) { 
@@ -437,13 +459,19 @@ li {
     background-color:#FAF9FC;
     padding-top: 4.625rem;
     padding-bottom: 6.188rem;
-
 }
+
 .faqs-title{
     text-align: left;
-    font-size: 4.375rem;
+    font-size: 3.375rem;
     letter-spacing: 0px;
     color: #484451;
+    margin-bottom: 25px;
+}
+
+[dir="rtl"] .faqs-title{
+    text-align: right;
+
 }
 :root {
   --color-input: #333333;
@@ -486,14 +514,12 @@ li {
   display: none;
 }
 .faq-label {
-  cursor: pointer;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-block: 1rem;
-  padding-inline: 3%;
-  /* background-c   olor: var(--color-input); */
-  /* border-bottom: 2px solid black; */
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .faq-content {
   /* background-color: var(--color-input); */
@@ -552,7 +578,7 @@ li {
 
 }
 .footer ul{
-    margin: 2.813rem 0;
+    margin: 2.013rem2.813rem 0;
     padding: 0;
     list-style: none;
 }
@@ -581,7 +607,7 @@ li {
 }
 .footer button.active{
     background-color: #97D3BF;
-    margin: 2.813rem auto 0;
+    margin: 2.013rem2.813rem auto 0;
     border: none;
 }
 .footer button.active:hover{
