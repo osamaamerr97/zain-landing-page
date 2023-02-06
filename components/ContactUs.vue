@@ -17,7 +17,7 @@
                                     </div>
                                     <div class="col-12 col-md-10">
                                         <div class="contact-title fs-5">{{ $t("Contact.Phone") }}</div>
-                                        <div class="contact-des fs-4">+90 554 710 50 34</div>
+                                        <div class="contact-des phone_number fs-4">+90 554 710 50 34</div>
                                     </div>
                              </div>
                             <div class="row contact-ways" >
@@ -77,4 +77,7 @@ export default {
 }
 </script>
 <style scoped>
+[dir=rtl] .phone_number {
+    direction: ltr;
+}
 </style>

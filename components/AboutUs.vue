@@ -10,9 +10,12 @@
                         <h4 class="about-span">{{ $t("About.ABOUT_US") }}</h4>
                         <h2 class="about-title">{{ $t("About.Zeni_Global") }}</h2>
                         <p class="about-description">{{ $t("About.About_p1") }}</p>
-                        <p class=" about-description about-second-description">{{ $t("About.About_p2") }} </p>
-                        <p class="about-description about-second-description" v-if="show_para">{{ $t("About.sec_para") }}</p>
-                        <button class="about-btn" v-if="!show_para" @click="showMore()">{{ $t("About.Read_More") }}</button>
+                        <!-- <p class=" about-description about-second-description">{{ $t("About.About_p2") }} </p> -->
+                        <template v-if="show_para">
+                            <p class="about-description about-second-description">{{ $t("About.sec_para") }}</p>
+                            <p class="about-description about-second-description">{{ $t("About.third_para") }}</p>
+                        </template>
+                        <button class="about-btn" v-else @click="showMore()">{{ $t("About.Read_More") }}</button>
                     </div>
                 </div>
             </div>
