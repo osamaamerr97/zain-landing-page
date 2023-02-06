@@ -79,5 +79,6 @@ export default {
 <style scoped>
 [dir=rtl] .phone_number {
     direction: ltr;
+    text-align: end;
 }
 </style>
