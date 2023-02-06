@@ -1,5 +1,5 @@
 <template>
-    <div class="our-services">
+    <div class="our-services" id="our-services">
         <div class="container">
             <h2 class="about-title">{{ $t("Services.Our_Services") }}</h2>
             <p class="serices-description">{{ $t("Services.serices_des") }}</p>

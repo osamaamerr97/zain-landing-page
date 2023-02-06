@@ -1,5 +1,5 @@
 <template >
-    <div class="faqs">
+    <div class="faqs" id="faqs">
         <div class="container">
             <div class="row ">
                 <div class="col-12 col-lg-5">
@@ -9,39 +9,13 @@
                     <h2 class="about-title mb-5">{{ $t("Faqs.QuestionsAndAnswers") }}</h2>
 
                         <ul class="faq-accordion text-md">
-                            <li>
-                                <input class="faq-input" type="radio" name="faq" id="faq-1" />
-                                <label class="faq-label" for="faq-1">{{ $t("Faqs.Question1") }}<font-awesome-icon icon="fa-solid fa-plus" class="icon"/></label>
+                            <li v-for="index in 5" :key="index">
+                                <input class="faq-input" type="radio" name="faq" :id="`faq-${index}`" />
+                                <label class="faq-label" :for="`faq-${index}`">{{ $t(`Faqs.Question${index}`) }}<font-awesome-icon icon="fa-solid fa-plus" class="icon"/></label>
                                 <div class="faq-content">
                                     <p>
-                                        {{ $t("Faqs.Answer1") }} <br />
+                                        {{ $t(`Faqs.Answer${index}`) }} <br />
                                     </p>
-                                </div>
-                            </li>
-
-                            <li>
-                                <input class="faq-input" type="radio" name="faq" id="faq-2" />
-                                <label class="faq-label" for="faq-2">{{ $t("Faqs.Question2") }}<font-awesome-icon icon="fa-solid fa-plus" class="icon"/></label>
-                                <div class="faq-content">
-                                    <p>{{ $t("Faqs.Answer2") }}</p>
-                                </div>
-                            </li>
-
-                            <li>
-                                <input class="faq-input" type="radio" name="faq" id="faq-3" />
-                                <label class="faq-label" for="faq-3">{{ $t("Faqs.Question3") }}<font-awesome-icon icon="fa-solid fa-plus" class="icon"/></label>
-                                <div class="faq-content">
-                                    <p>
-                                        {{ $t("Faqs.Answer3") }}<br />
-                                    </p>
-                                </div>
-                            </li>
-
-                            <li>
-                                <input class="faq-input" type="radio" name="faq" id="faq-4" />
-                                <label class="faq-label" for="faq-4">{{ $t("Faqs.Question3") }}<font-awesome-icon icon="fa-solid fa-plus" class="icon"/></label>
-                                <div class="faq-content">
-                                    <p>{{ $t("Faqs.Answer3") }}</p>
                                 </div>
                             </li>
                         </ul>
@@ -57,7 +31,12 @@ export default {
 </script>
 <style scoped>
 @media screen and (min-width:1199px){
-    .section-faq{
+    [dir="rtl"] .section-faq{
+        padding-right: 60px!important;
+        padding-left: 18px!important;
+        padding-top: 50px!important;
+    }
+    [dir="ltr"] .section-faq{
         padding-left: 60px!important;
         padding-right: 18px!important;
         padding-top: 50px!important;
