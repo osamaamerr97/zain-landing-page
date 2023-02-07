@@ -6,6 +6,8 @@
                     <div class="contact-info">
                         <h2 class="about-title">{{ $t("Contact.Contact_Us") }}</h2>
                         <p class="contact-container-description">{{ $t("Contact.contact_des") }}</p>
+                        <p class="contact-container-description">{{ $t("Contact.contact_des2") }}</p>
+                        <p class="contact-container-description">{{ $t("Contact.contact_des3") }}</p>
     
                         <div class="contacts-details">
                             <div class="row contact-ways" >
@@ -23,7 +25,7 @@
                             <div class="row contact-ways" >
                                     <div class="col-12 col-md-2">
                                         <div class="contact-icon">
-                                            <font-awesome-icon icon="fa-solid fa-envelope" />    
+                                            <font-awesome-icon icon="fa-solid fa-envelope" />   
     
                                         </div>
                                     </div>
@@ -41,7 +43,8 @@
                                     </div>
                                     <div class="col-12 col-md-10">
                                         <div class="contact-title fs-5">{{ $t("Contact.Location") }}</div>
-                                        <div class="contact-des fs-4">Port Saeed Business Avenue Tower Office 916 Dubai/UAE</div>
+                                        <div class="contact-des fs-4 location">Port Saeed Business Avenue Tower Office 916 Dubai/UAE</div>
+                                        <div class="contact-des fs-4 mt-2 location">Kazlıçeşme, Yedimavi Blok G2 Ofis 6, Zeytinburnu/İstanbul/Turkiye</div>
                                     </div>
                             </div>
                         </div>
@@ -79,10 +82,15 @@ export default {
 <style scoped>
 [dir=rtl] .phone_number {
     direction: ltr;
+    /* text-align: right; */
+}
+.location{
+    /* text-align: justify; */
+    direction: ltr;
 }
 @media screen and (min-width:821px) {
     [dir=rtl] .phone_number {
-        text-align: end;
+        text-align: right;
     }
 }
 </style>

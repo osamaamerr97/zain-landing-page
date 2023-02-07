@@ -5,14 +5,14 @@
                 <div class="col-12 col-lg-6">
                     <img src="../assets/images/chad-peltola-Rch8oP-O5sU-unsplash.png" class="about-first-image" alt="">
                 </div>
-                <div class="col-12 col-lg-6 d-flex align-items-center">
+                <div class="col-12 col-lg-6 d-flex ">
                     <div class="about-content">
                         <h4 class="about-span">{{ $t("About.ABOUT_US") }}</h4>
-                        <h2 class="about-title">{{ $t("About.Zeni_Global") }}</h2>
-                        <p class="about-description">{{ $t("About.About_p1") }}</p>
+                        <!-- <h2 class="about-title">{{ $t("About.Zeni_Global") }}</h2> -->
+                        <p class="about-description ">{{ $t("About.About_p1") }}</p>
                         <!-- <p class=" about-description about-second-description">{{ $t("About.About_p2") }} </p> -->
+                        <p class="about-description about-second-description">{{ $t("About.sec_para") }}</p>
                         <template v-if="show_para">
-                            <p class="about-description about-second-description">{{ $t("About.sec_para") }}</p>
                             <p class="about-description about-second-description">{{ $t("About.third_para") }}</p>
                         </template>
                         <button class="about-btn" v-else @click="showMore()">{{ $t("About.Read_More") }}</button>
@@ -22,8 +22,8 @@
             <div class="row">
                 <div class="col-12 col-lg-6">
                     <div>
-                        <h4 class="about-span">{{ $t("About.ZENI_GLOBAL_Team") }}</h4>
-                        <h2 class="about-title">{{ $t("About.Vision&Team") }}</h2>
+                        <!-- <h4 class="about-span">{{ $t("About.ZENI_GLOBAL_Team") }}</h4> -->
+                        <h2 class="about-title mt-5 mb-5">{{ $t("About.Vision&Team") }}</h2>
                         <div class="about-collaps">
                             <details class="accordion">
                                 <summary class="accordion__title">
@@ -72,12 +72,14 @@ export default {
 .accordion {
   border: solid 2px #f5f5f5;
   transition: all 0.3s ease-in-out;
+  text-align: justify;
+
   // max-height: 4em;
   // overflow: hidden;  
   border-radius: 20px;
 
   & + & {
-    margin-top: 0.25rem;
+    margin-top: 0.9rem;
   }  
   &:hover {
     background-color: #f5f5f5;

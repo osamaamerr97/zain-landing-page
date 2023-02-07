@@ -8,10 +8,14 @@
                             <p class="footer-des fs-6 mt-5">{{ $t("Footer.des") }}</p>
                         
                             <div class="social">
-                                <span><img width="15px" src="@/assets/images/facebook.png" alt=""></span>
-                                <span><img width="15px" src="@/assets/images/twitter.png" alt=""></span>
-                                <span><img width="15px" src="@/assets/images/instagram.png" alt=""></span>
-                                <span><img width="15px" src="@/assets/images/youtube.png" alt=""></span>
+                                    <a target="_blank" href="https://www.facebook.com/alzeinglobal/"> <span><img width="15px" src="@/assets/images/facebook.png" alt=""></span></a >
+                                    <a target="_blank" href="https://www.instagram.com/alzeinglobal/"> <span><img width="15px" src="@/assets/images/instagram.png" alt=""></span></a >
+                                    <a target="_blank" href="https://www.linkedin.com/company/alzein-global/"> <span><font-awesome-icon class="text-white icon"  icon="fa-brands fa-linkedin" /></span></a >
+                                    <a target="_blank" href="https://www.tiktok.com/@alzeinglobal"> <span><font-awesome-icon class="text-white icon" icon="fa-brands fa-tiktok" /></span></a >
+                                    <a target="_blank" href="https://www.snapchat.com/@alzeinglobal"> <span><font-awesome-icon class="text-white icon" icon="fa-brands fa-snapchat" /></span></a >
+                                    <a target="_blank" href="https://twitter.com/alzeinglobal"> <span><img width="15px" src="@/assets/images/twitter.png" alt=""></span></a >
+                                    <a target="_blank" href="https://www.youtube.com/alzeinglobal"> <span><img width="15px" src="@/assets/images/youtube.png" alt=""></span></a >
+
                             </div>
                 
                     </div>
@@ -30,7 +34,7 @@
                     <ul>
                         <li><nuxt-link class="fs-5" :to="localePath('/PrivacyPolicy')">{{ $t("Footer.Privacy_Policy") }}</nuxt-link></li>
                         <li><nuxt-link class="fs-5" :to="localePath('/')">{{ $t("Footer.Help_Center") }}</nuxt-link></li>
-                        <li><nuxt-link class="fs-5" :to="localePath('/')">{{ $t("Footer.Refund_Policy") }}</nuxt-link></li>
+                        <!-- <li><nuxt-link class="fs-5" :to="localePath('/')">{{ $t("Footer.Refund_Policy") }}</nuxt-link></li> -->
 
     
                     </ul>            
@@ -60,4 +64,5 @@ export default {
 .border-top {
     border-color: rgba(255, 255, 255, 0.12) !important
 }
+
 </style>
