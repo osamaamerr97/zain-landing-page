@@ -79,6 +79,10 @@ export default {
 <style scoped>
 [dir=rtl] .phone_number {
     direction: ltr;
-    text-align: end;
+}
+@media screen and (min-width:821px) {
+    [dir=rtl] .phone_number {
+        text-align: end;
+    }
 }
 </style>
