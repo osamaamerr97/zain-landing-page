@@ -433,6 +433,18 @@ nav li.nav-item a, .lang{
     border: none;
     font-size: 1.375rem;
 }
+.contact-form span.loading-contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 5rem;
+    border-radius: 15px;
+    background-color: #dc3545;
+    color: #FFF;
+    border: none;
+    font-size: 1.375rem;
+}
 .contact-form button:hover{
     background-color: #97D3BF;
 }

@@ -88,15 +88,15 @@ export default {
 
   i18n: {
     locales: [
-      {
-        code: 'en',
-        file: 'en.json',
-        name:'English',
-        dir: 'ltr'
+      // {
+      //   code: 'en',
+      //   file: 'en.json',
+      //   name:'English',
+      //   dir: 'ltr'
 
 
         
-      },
+      // },
       {
         code: 'ar',
         file: 'ar.json',
@@ -106,7 +106,7 @@ export default {
       }
     ],
     langDir: 'locales/',
-    defaultLocale: 'locales/en.json'
+    defaultLocale: 'locales/ar.json'
   },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
