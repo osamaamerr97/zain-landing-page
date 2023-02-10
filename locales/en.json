@@ -11,7 +11,8 @@
     "Home_Head":{
         "Welcome_to":"Welcome to",
         "Zeni_Global":"Zeni Global",
-        "head_des":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+        "in_zeni_global":"There are many variations of passages",
+        "head_des":" of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
         "Read_More":"Read More"
 
     },
@@ -63,6 +64,8 @@
     "Contact":{
         "Contact_Us":"Contact Us",
         "contact_des":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+        "contact_des2":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+        "contact_des3":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
         "Phone":"Phone",
         "Email":"Email",
         "Location":"Location",

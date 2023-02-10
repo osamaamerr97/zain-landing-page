@@ -13,7 +13,7 @@
                                 <font-awesome-icon icon="fa-solid fa-hotel" class="service-icon"/>
                             </div>
                         <h6 class="service-title">{{ $t("Services.Hotel_reservations") }}</h6>
-                        <p class="service-des">{{ $t("Services.sevice_des") }}</p>
+                        <p class="service-des">{{ $t("Services.Hotel_reservations_des") }}</p>
                         </div>
                     </div>
                     <div class="service mx-2">
@@ -22,7 +22,7 @@
                                 <font-awesome-icon icon="fa-solid fa-plane" class="service-icon"/>
                             </div>
                         <h6 class="service-title">{{ $t("Services.flight_reservations") }}</h6>
-                        <p class="service-des">{{ $t("Services.sevice_des") }}</p>
+                        <p class="service-des">{{ $t("Services.flight_reservations_des") }}</p>
                         </div>
                     </div>
                     <div class="service mx-2">
@@ -31,25 +31,27 @@
                                 <font-awesome-icon icon="fa-solid fa-hotel" class="service-icon"/>
                             </div>
                         <h6 class="service-title">{{ $t("Services.Medical_Tourism") }}</h6>
-                        <p class="service-des">{{ $t("Services.sevice_des") }}</p>
+                        <p class="service-des">{{ $t("Services.Medical_Tourism_des") }}</p>
                         </div>
                     </div>
                     <div class="service mx-2">
                         <div>
                             <div class="service-icon-container">
-                                <font-awesome-icon icon="fa-solid fa-plane" class="service-icon"/>
+                                <!-- <font-awesome-icon icon="fa-solid fa-plane" class="service-icon"/> -->
+                                <font-awesome-icon icon="fa-solid fa-car" class="service-icon"/>
                             </div>
                         <h6 class="service-title">{{ $t("Services.Tourist_trips_by_private_car") }}</h6>
-                        <p class="service-des">{{ $t("Services.sevice_des") }}</p>
+                        <p class="service-des">{{ $t("Services.Tourist_trips_by_private_car_des") }}</p>
                         </div>
                     </div>
                     <div class="service mx-2">
                         <div>
                             <div class="service-icon-container">
-                                <font-awesome-icon icon="fa-solid fa-hotel" class="service-icon"/>
+                                <!-- <font-awesome-icon icon="fa-solid fa-hotel" class="service-icon"/> -->
+                                <font-awesome-icon icon="fa-solid fa-people-group" class="service-icon"/>    
                             </div>
                         <h6 class="service-title">{{ $t("Services.Tourist_trips_with_groups") }}</h6>
-                        <p class="service-des">{{ $t("Services.sevice_des") }}</p>
+                        <p class="service-des">{{ $t("Services.Tourist_trips_with_groups_des") }}</p>
                         </div>
                     </div>
                     <div class="service mx-2">
@@ -58,25 +60,17 @@
                                 <font-awesome-icon icon="fa-solid fa-plane" class="service-icon"/>
                             </div>
                         <h6 class="service-title">{{ $t("Services.Transfers_and_tours") }}</h6>
-                        <p class="service-des">{{ $t("Services.sevice_des") }}</p>
+                        <p class="service-des">{{ $t("Services.Transfers_and_tours_des") }}</p>
                         </div>
                     </div>
                     <div class="service mx-2">
                         <div>
                             <div class="service-icon-container">
-                                <font-awesome-icon icon="fa-solid fa-hotel" class="service-icon"/>
+                                <!-- <font-awesome-icon icon="fa-solid fa-hotel" class="service-icon"/> -->
+                                <font-awesome-icon icon="fa-solid fa-people-roof" class="service-icon"/>
                             </div>
-                        <h6 class="service-title">{{ $t("Services.Hotel_reservations") }}</h6>
-                        <p class="service-des">{{ $t("Services.sevice_des") }}</p>
-                        </div>
-                    </div>
-                    <div class="service mx-2">
-                        <div>
-                            <div class="service-icon-container">
-                                <font-awesome-icon icon="fa-solid fa-plane" class="service-icon"/>
-                            </div>
-                        <h6 class="service-title">{{ $t("Services.flight_reservations") }}</h6>
-                        <p class="service-des">{{ $t("Services.sevice_des") }}</p>
+                        <h6 class="service-title">{{ $t("Services.Organizing_exhibitions") }}</h6>
+                        <p class="service-des">{{ $t("Services.Organizing_exhibitions_des") }}</p>
                         </div>
                     </div>
                 </carousel>

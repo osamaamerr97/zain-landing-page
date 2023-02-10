@@ -27,5 +27,9 @@ export default {
 }
 </script>
 <style scoped >
-
+@media screen and (max-width:375px) {
+        .destinations h2{
+            font-size: 2.325rem !important;
+        }
+}
 </style>

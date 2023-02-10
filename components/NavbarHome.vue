@@ -2,7 +2,7 @@
     <div>
         <nav class="navbar navbar-expand-lg navbar-light">
           <div class="container">
-            <nuxt-link class="navbar-brand" to="">
+            <nuxt-link class="navbar-brand" :to="localePath('/#home-head')">
               <div class="logo" >
                 <img src="~/assets/images/logo.png" alt="">
               </div>
@@ -39,10 +39,12 @@
                   <!-- <nuxt-link class="nav-link" aria-current="page" :to="localePath('/#')">{{ $t("navbar.Faqs") }}</nuxt-link> -->
 
                 </li>
-                <li  class="nav-item" v-for="locale in availableLocales" :key="locale.code">
-                  <nuxt-link class="nav-link lang" :to="switchLocalePath(locale.code)">{{ locale.name }}</nuxt-link>
+                <li  class="nav-item " v-for="locale in availableLocales" :key="locale.code">
+                  <nuxt-link class="nav-link lang position-relative" :to="switchLocalePath(locale.code)">{{ locale.name === 'Arabic'? "العربية" :  locale.name}}</nuxt-link>
                 </li>
               </ul>
+
+              
               <nuxt-link class="navbar-contact-btn" :to="localePath('/#contact')">{{ $t("navbar.Contact_Us") }}</nuxt-link>
               <!-- <button class="navbar-contact-btn">{{ $t("navbar.Contact_Us") }}</button> -->
 
@@ -83,7 +85,40 @@ export default {
 .lang{
   color: #FFF;
   margin: 0 8px;
-  border-bottom: 2px solid #FFF;
+  /* border-bottom: 2px solid #FFF; */
+}
+.lang::after{
+  content: '';
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+}
+
+[dir=rtl] .lang::after{
+  right:  0;
+}
+@media screen and (max-width:996px) {
+  .navbar-collapse{
+    /* height: 50vh; */
+  }
+  .navbar-nav{
+    display: block;
+    margin: 0 0 20px 0 !important;
+
+  }
+  .lang{
+   color: #FFF;
+   margin: 0;
+  /* border-bottom: 2px solid #FFF; */
+}
+  .lang::after{
+    bottom: 7px;
+
+    width: 0%;
+  }
 }
 </style>
 

@@ -6,7 +6,7 @@
                     <img src="../assets/images/magnifying-glass-with-question-mark-focus-wooden-background-concept-search-research-research-searching-investigating-something.png"  class="w-100" alt="">                
                 </div>
                 <div class="col-12 col-lg-7 section-faq">
-                    <h2 class="about-title mb-5">{{ $t("Faqs.QuestionsAndAnswers") }}</h2>
+                    <h2 class="about-title  mb-5 ">{{ $t("Faqs.QuestionsAndAnswers") }}</h2>
 
                         <ul class="faq-accordion text-md">
                             <li v-for="index in 5" :key="index">
@@ -41,5 +41,12 @@ export default {
         padding-right: 18px!important;
         padding-top: 50px!important;
     }
+}
+@media screen and (max-width:992px){
+     .section-faq h2{
+        margin-top: 2.7rem;
+        margin-bottom: 2rem !important;
+    }
+  
 }
 </style>
