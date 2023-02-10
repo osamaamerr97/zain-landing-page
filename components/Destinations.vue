@@ -1,6 +1,6 @@
 <template >
-    <div class="container text-center">
-        <div class="destinations">
+    <div class="container text-center" id="destinations">
+        <div class="destinations" >
             <h2 class="about-title">{{ $t("Destinations.destinations") }}</h2>
             <p class="serices-description">{{ $t("Destinations.destinations_des") }}</p>
         

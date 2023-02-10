@@ -1,5 +1,5 @@
 <template >
-    <div class="about">
+    <div class="about" id="about">
         <div class="container">
             <div class="row about-first-row">
                 <div class="col-12 col-lg-6">
@@ -11,7 +11,8 @@
                         <h2 class="about-title">{{ $t("About.Zeni_Global") }}</h2>
                         <p class="about-description">{{ $t("About.About_p1") }}</p>
                         <p class=" about-description about-second-description">{{ $t("About.About_p2") }} </p>
-                        <button class="about-btn">{{ $t("About.Read_More") }}</button>
+                        <p class="about-description about-second-description" v-if="show_para">{{ $t("About.sec_para") }}</p>
+                        <button class="about-btn" v-if="!show_para" @click="showMore()">{{ $t("About.Read_More") }}</button>
                     </div>
                 </div>
             </div>
@@ -51,8 +52,17 @@
 </template>
 <script>
 export default {
-    name:"AboutUs"
-    
+    name: "AboutUs",
+    data: function () {
+        return {
+            show_para: false
+        }
+    },
+    methods: {
+        showMore() {
+            return this.show_para = true;
+        }
+    }
 }
 </script>
 <style scoped lang="scss">
@@ -80,7 +90,7 @@ export default {
     padding: 0.875rem 2.5rem 0.875rem 0.875rem;
     background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='32' height='32' viewBox='0 0 32 32' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M23.024 11.263l-7.024 7.023-7.022-7.023-3.091 3.090 8.569 8.569c0.413 0.413 0.961 0.64 1.545 0.64s1.133-0.228 1.545-0.64l8.569-8.569-3.091-3.090z' fill='%23555555'/%3e%3c/svg%3e");
     background-repeat: no-repeat;
-    background-position-y: center;
+    background-position-y: center!important;
     background-size: 1.6rem;
     width: 100%;
     display: flex;
@@ -118,6 +128,9 @@ export default {
   }
 }
 .accordion:dir(rtl){
+.accordion__content {
+    padding: 0 6rem 1rem 1rem ;
+  }
     .accordion__title{
         background-position: left 0.75rem top 3rem;
         padding: 0.875rem 0.875rem 0.875rem  2.5rem;

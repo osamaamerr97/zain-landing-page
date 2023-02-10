@@ -172,7 +172,7 @@ nav li.nav-item a, .lang{
 
 /*about*/
 .about-first-row{
-    padding-bottom: 11.688rem;
+    padding-bottom: 5rem;
 }
 .about-span{
     font-size: 2.213rem;
@@ -323,8 +323,8 @@ nav li.nav-item a, .lang{
 
 /*destinations*/
 .destinations{
-    padding-top: 7.125rem;
-    padding-bottom: 10.375rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }    
 .destinations-title{
     /* font-size: 4.375rem; */
@@ -354,8 +354,8 @@ nav li.nav-item a, .lang{
 
 /*contacts*/
 .contact{
-    padding-top: 8rem;
-    padding-bottom: 9.813rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 
 }
 .contact-info{
@@ -370,7 +370,7 @@ nav li.nav-item a, .lang{
     margin-bottom: 1.25rem;
 }
 .contact-container-description{
-    font-size: 1.625rem;
+    font-size: 1.125rem;
     color: #484451;
 }
 .contact-ways{
@@ -378,13 +378,13 @@ nav li.nav-item a, .lang{
 }
 .contact-icon{
     background-color: #6C429A;
-    width: 5rem;
-    height: 5rem;
+    width: 4rem;
+    height: 4rem;
     border-radius: 1000px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 2.313rem;
+    font-size: 1.513rem;
     color: #FFF ;
 
 }
@@ -412,12 +412,12 @@ nav li.nav-item a, .lang{
     background-color: transparent;
     border: 1px solid #D9D9D9;
     border-radius: 15px;
-    font-size: 1.375rem;
+    font-size: 1.175rem;
     color: #909090;
 
 }
 .contact-form input{
-    height: 5rem;
+    height: 4rem;
     
 }
 .contact-form textarea{
@@ -426,12 +426,12 @@ nav li.nav-item a, .lang{
 }
 .contact-form button{
     width: 100%;
-    height: 5rem;
+    height: 4rem;
     border-radius: 15px;
     background-color: #6C429A;
     color: #FFF;
     border: none;
-    font-size: 1.375rem;
+    font-size: 1.175rem;
 }
 .contact-form span.loading-contact{
     display: flex;
@@ -527,19 +527,19 @@ nav li.nav-item a, .lang{
 }
 .faq-label {
     cursor: pointer;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 18px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .faq-content {
-  /* background-color: var(--color-input); */
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.3s ease-in, padding 0.3s ease-in;
 }
 .faq-content p {
+  font-size: 18px;
   margin: 2rem;
 }
 .faq-input:checked ~ .faq-content {
@@ -583,10 +583,14 @@ nav li.nav-item a, .lang{
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 3.438rem;
-    height: 3.438rem;
+    width: 2.438rem;
+    height: 2.438rem;
     border-radius: 10px;
     background-color: rgba(255, 255, 255,0.12);
+
+}
+.social span img{
+    width: 17px;
 
 }
 .footer ul{
@@ -608,23 +612,28 @@ nav li.nav-item a, .lang{
 }
 .footer button{
     border-radius: 15px;
-    border: 1px solid #FFF;
-    width: 13.75rem;
-    height:  5.313rem;
     background-color: transparent;
     opacity: 1;
-    font-size: 1.388rem;
     margin: 5px 0;
+    margin-top: 1rem!important;
     color: #FFF;
+    padding: 20px 0;
+    font-weight: 400;
+    font-size: 15px;
+    border: 1px solid #fff;
+    width: 170px;
 }
 .footer button.active{
     background-color: #97D3BF;
     margin: 2.013rem2.813rem auto 0;
-    border: none;
+    border: 1px solid #97D3BF;
 }
 .footer button.active:hover{
     background-color: transparent;
     border: 1px solid #FFF;
+}
+.footer button svg{
+    font-size: 27px;
 }
 .store{
     text-align: center; 
@@ -634,10 +643,6 @@ nav li.nav-item a, .lang{
     justify-content: center;
     align-items: center;
     margin: 5px auto;
-}
-
-.store .icon{
-    font-size: 2.25rem;
 }
 @media screen and (max-width:820px) {
     .footer{
@@ -651,4 +656,14 @@ nav li.nav-item a, .lang{
     .store{
         text-align: center;
     }
+}/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
 }
