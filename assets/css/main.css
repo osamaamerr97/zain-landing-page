@@ -667,3 +667,9 @@ input::-webkit-inner-spin-button {
 input[type=number] {
   -moz-appearance: textfield;
 }
+.copyright-link {
+    color:#97D3BF
+}
+.copyright-link:hover {
+    color:#fff
+}
