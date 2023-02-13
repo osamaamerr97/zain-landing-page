@@ -201,7 +201,7 @@ nav li.nav-item a, .lang{
     font-weight: 700;
 }
 .about-description{
-    font-size: 1.325rem;
+    font-size: 1.125rem;
     color: #484451;
     letter-spacing: 0px;
     text-align: justify;
@@ -335,10 +335,18 @@ nav li.nav-item a, .lang{
     height: 200px;
     overflow: auto;
     text-align: justify;
-    direction: rtl;
+    word-spacing:-2px;
     
 }
+.word-space{
+    word-spacing:-5px;
 
+}
+.service-des:dir(rtl){
+    direction: rtl;
+    padding-left: 10px;
+    
+}
 @media screen and (max-width:820px) { 
     .serices-description{
         width: 100%;
@@ -519,7 +527,6 @@ nav li.nav-item a, .lang{
 }
 
 
-.faqs p,
 .faqs span {
   font-weight: 300;
   font-size: clamp(0.8rem, 4vw, 1.4rem);
@@ -568,11 +575,12 @@ nav li.nav-item a, .lang{
   transition: max-height 0.3s ease-in, padding 0.3s ease-in;
 }
 .faq-content p {
-  font-size: 18px;
-  margin: 2rem;
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-  text-align: justify;
+    font-size: 1rem;
+    margin: 2rem;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    text-align: justify;
+    opacity: 0.7;
 }
 .faq-input:checked ~ .faq-content {
   max-height: 60rem;

@@ -14,6 +14,8 @@
                         <p class="about-description about-second-description">{{ $t("About.sec_para") }}</p>
                         <template v-if="show_para">
                             <p class="about-description about-second-description">{{ $t("About.third_para") }}</p>
+                            <p class="about-description about-second-description">{{ $t("About.fourth_para") }}</p>
+                            <p class="about-description about-second-description">{{ $t("About.fifth_para") }}</p>
                         </template>
                         <button class="about-btn" v-else @click="showMore()">{{ $t("About.Read_More") }}</button>
                     </div>
@@ -41,6 +43,7 @@
                                 </summary>
                                 <div class="accordion__content">
                                 <p>{{ $t("About.our_team_des") }}</p>
+                                <p>{{ $t("About.our_team_des2") }}</p>
                                 </div>
                             </details>
                         </div>

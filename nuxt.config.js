@@ -88,15 +88,15 @@ export default {
 
   i18n: {
     locales: [
-      // {
-      //   code: 'en',
-      //   file: 'en.json',
-      //   name:'English',
-      //   dir: 'ltr'
+      {
+        code: 'en',
+        file: 'en.json',
+        name:'English',
+        dir: 'ltr'
 
 
         
-      // },
+      },
       {
         code: 'ar',
         file: 'ar.json',
