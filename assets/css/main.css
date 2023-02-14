@@ -336,6 +336,7 @@ nav li.nav-item a, .lang{
     overflow: auto;
     text-align: justify;
     word-spacing:-2px;
+    padding-right: 4px;
     
 }
 .word-space{
@@ -344,7 +345,7 @@ nav li.nav-item a, .lang{
 }
 .service-des:dir(rtl){
     direction: rtl;
-    padding-left: 10px;
+    padding-left: 5px;
     
 }
 @media screen and (max-width:820px) { 

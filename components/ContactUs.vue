@@ -19,7 +19,7 @@
                                     </div>
                                     <div class="col-12 col-md-10">
                                         <div class="contact-title fs-5">{{ $t("Contact.Phone") }}</div>
-                                        <div class="contact-des phone_number fs-4">+90 554 710 50 34</div>
+                                        <div class="contact-des phone_number fs-5">+90 554 710 50 34</div>
                                     </div>
                              </div>
                             <div class="row contact-ways" >
@@ -31,7 +31,7 @@
                                     </div>
                                     <div class="col-12 col-md-10">
                                         <div class="contact-title fs-5">{{ $t("Contact.Email") }}</div>
-                                        <div class="contact-des fs-4">info@alzeinglobal.com</div>
+                                        <div class="contact-des fs-5">info@alzeinglobal.com</div>
                                     </div>
                             </div>
                             <div class="row contact-ways" >
@@ -43,8 +43,8 @@
                                     </div>
                                     <div class="col-12 col-md-10">
                                         <div class="contact-title fs-5">{{ $t("Contact.Location") }}</div>
-                                        <div class="contact-des fs-4 location">Port Saeed Business Avenue Tower Office 916 Dubai/UAE</div>
-                                        <div class="contact-des fs-4 mt-2 location">Kazlıçeşme, Yedimavi Blok G2 Ofis 6, Zeytinburnu/İstanbul/Turkiye</div>
+                                        <div class="contact-des fs-5 location">Port Saeed Business Avenue Tower Office 916 Dubai/UAE</div>
+                                        <div class="contact-des fs-5 mt-2 location">Kazlıçeşme, Yedimavi Blok G2 Ofis 6, Zeytinburnu/İstanbul/Turkiye</div>
                                     </div>
                             </div>
                         </div>
