@@ -6,6 +6,7 @@
         <Destinations></Destinations>
         <Faqs></Faqs>
         <ContactUs></ContactUs>
+        <BeOurAgent></BeOurAgent>
 
     </div>
 </template>
@@ -16,6 +17,7 @@ import OurServices from '@/components/OurServices.vue';
 import Destinations from '../components/Destinations.vue';
 import Faqs from '../components/Faqs.vue';
 import ContactUs from '../components/ContactUs.vue';
+import BeOurAgent from '../components/BeOurAgent.vue';
 
 export default {
     name:"landing-page",
@@ -26,6 +28,7 @@ export default {
         Destinations,
         Faqs,
         ContactUs,
+        BeOurAgent
         
     }
 

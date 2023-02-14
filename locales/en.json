@@ -86,12 +86,16 @@
         "Form_Full_Name":"Full Name",
         "Form_E-Mail":"E-Mail",
         "Form_Phone_Number":"Phone Number",
-        "Form_Write_YourMessage_Here":"Write YourMessage Here"
-
+        "Form_Write_YourMessage_Here":"Write YourMessage Here",
+        "BeOurAgent":"Be Our Agent",
+        "BeOurAgent_des1":"Al Zain Global is proud to provide its services to agents and companies with a B2B work system",
+        "BeOurAgent_des2":"Where the owners of tourism companies have the opportunity to join the network of agents of Zain Global. Joining this network also allows the owners of tourism companies to increase their service area, acquire new customers and create a new work space.",
+        "BeOurAgent_des3":"Becoming an agent of our company is a great way to be part of a larger family while offering unlimited tourism services of high value.",
+        "BeOurAgent_des4":"By filling out the agent registration form accurately and completely, you can be an agent for Al Zain Global after reviewing and verifying the mentioned data."
 
     },
     "Footer":{
-        "des":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered.",
+        "des":"From beach getaways to exciting adventures, we have something for everyone. Follow us on social media to stay up to date with all the exciting packages, offers and promotions we have to offer. Let us help you make your next trip unforgettable.",
         "About":"About",
         "About_Us":"About Us",
         "Contact_Us":"Contact Us",

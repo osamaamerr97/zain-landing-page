@@ -80,6 +80,25 @@
                 </div>
             </div>
         </div>
+<!-- 
+        <div class=" BeOurAgent position-absolute top-100 start-50 translate-middle px-5 d-flex align-items-center" >
+
+            <div class="container">
+                <div class="row align-items-center ">
+                <div class="col-12 col-md-7 text-white">
+                    <h2 class="fw-bold text-white h1">{{ $t("Contact.BeOurAgent") }}</h2>
+                    <p>{{ $t("Contact.BeOurAgent_des1") }}</p>
+                    <p>{{ $t("Contact.BeOurAgent_des2") }}</p>
+                    <p>{{ $t("Contact.BeOurAgent_des3") }}</p>
+                    <p>{{ $t("Contact.BeOurAgent_des4") }}</p>
+                </div>
+                <div class="col-12 col-md-5 img-container">
+                    <img src="~/assets/images/Layer 1 copy.png"  alt="">
+                </div>
+            </div>
+            </div>
+
+        </div> -->
     </div>
 </template>
 <script>
@@ -171,4 +190,77 @@ export default {
     margin-top: 1px;
     font-size: 14px;
 }
+
+/* .contact{
+    margin-bottom: 280px;
+} */
+/* .BeOurAgent{
+    margin-top: 200px;
+    width: 95%;
+    z-index: 999;
+    padding-top: 50px;
+    padding-bottom: 50px;    
+    border-radius: 50px;
+    background-color: #97D3BF ;
+    text-align: justify;
+}
+.BeOurAgent img{
+    width: 65%;
+    
+}
+@media screen and (min-width:761px) and (max-width:999px) {
+    .BeOurAgent{
+        margin-top: 250px;
+        
+    }
+    .contact{
+        margin-bottom: 400px;
+    }
+}
+@media screen and (min-width:415px) and (max-width:761px) {
+    .BeOurAgent{
+        margin-top: 300px;
+        
+    }
+    .contact{
+        margin-bottom: 500px;
+    }
+    
+}
+@media screen and (min-width:281px) and (max-width:415px) {
+    .BeOurAgent{
+        margin-top: 350px;
+        
+    }
+    .contact{
+        margin-bottom: 600px;
+    }
+}
+@media screen and (max-width:281px) {
+    .BeOurAgent{
+        margin-top: 450px;
+        
+    }
+    .contact{
+    margin-bottom: 800px;
+
+
+}
+}
+
+@media screen  and (max-width:768px) {
+    .img-container{
+         text-align: center !important;
+    }
+    .img-container:dir(rtl){
+        text-align: center !important;
+    }
+    
+}
+.img-container{
+    text-align: right;
+}
+.img-container:dir(rtl){
+    text-align: left;
+} */
 </style>
