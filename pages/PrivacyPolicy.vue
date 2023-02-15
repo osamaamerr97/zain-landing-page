@@ -85,15 +85,16 @@
 </script>
 <style scoped>
 .head{
-    background-image: url('@/assets/images/background.png');
+    /* background-image: url('@/assets/images/background.png');
     background-position: center center;
-    background-size: 100% 100%;
-    padding-bottom: 8.313rem;
+    background-size: 100% 100%; */
+    background-color: #6C429A;
+    padding-bottom: 4.313rem;
     color: #FFF;
 
 }  
 .privacy-head{
-    padding-top: 5.25rem;
+    padding-top: 4.313rem;
 }
 .privacy-head h1{
     font-size: 4.375rem;

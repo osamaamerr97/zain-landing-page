@@ -57,19 +57,19 @@
 
                             <div class="mb-5">
                                 <input type="text" class="form-control" v-model="name" id="name" name="name" aria-describedby="name" :placeholder="$t('Contact.Form_Full_Name')">
-                                 <span v-if="errors.name" class="errors">{{ errors.name }}</span>
+                                <span v-if="errors.name" class="errors">{{ errors.name }}</span>
                             </div>
                             <div class="mb-5">
                                 <input type="email" class="form-control"  v-model="email" id="email" name="email" :placeholder="$t('Contact.Form_E-Mail')">
-                                 <span v-if="errors.email" class="errors">{{ errors.email }}</span>
+                                <span v-if="errors.email" class="errors">{{ errors.email }}</span>
                             </div>
                             <div class="mb-5">
                                 <input type="number" class="form-control" v-model="phone_number"  id="phone_number" name="phone_number" :placeholder="$t('Contact.Form_Phone_Number')">
-                                 <span v-if="errors.phone_number" class="errors">{{ errors.phone_number }}</span>
+                                <span v-if="errors.phone_number" class="errors">{{ errors.phone_number }}</span>
                             </div>
                             <div class="mb-5">
                                 <textarea class="form-control" :placeholder="$t('Contact.Form_Write_YourMessage_Here')"  v-model="message" id="message" name="message"></textarea>
-                                 <span v-if="errors.message" class="errors">{{ errors.message }}</span>
+                                <span v-if="errors.message" class="errors">{{ errors.message }}</span>
                             </div>
                             <button v-if="!loading" type="submit"  class="">{{ $t("Contact.Form_Send_Now") }}</button>
                             <span class="loading-contact" v-else>

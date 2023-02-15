@@ -120,5 +120,24 @@
         "part3_des1":"Lorem Ipsum is has been the industry’s stasn ndard dummy text ever since the 1500s, when an unknown printer took a galley of it to make. Lorem Ipsum is the simply dummy text of the printing and typesetting industry. When you are designing with Lorem Ipsum, you diminish the importance of the copy by lowering it to the same level as any other visual element. The text simply becomes another supporting role, serving to make other aspects more aesthetic. Instead of your design enhancing the meaning of the content, your content is enhancing your design.",
         "part3_des2":"We denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain.",
         "part3_des3":"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur."
-    }
+    },
+    "join_our_team":{
+        "Head":"انضم الى فريقنا ",
+        "Head_des":"الصفحة الرئيسية / انضم الى فريقنا  ",
+        "join_our_team_des":"هل تبحث عن وظيفة توفر لك فرصة استكشاف وجهات مذهلة؟ انضم إلى فريقنا فيالزين جلوبال وكن جزءًا من رحلتنا المثيرة. نحن شركة سياحة عالمية، ملتزمون بتقديم تجارب لا تُنسى لعملائنا. يتمتع موظفونا بساعات عمل مرنة وأجور تنافسية وفرص رائعة لاكتشاف أماكن جديدة. إذا كنت شغوفًا ومتحمسًا لاكتشاف العالم، معنا ستجد الوظيفة المناسبة لك. تعال وانضم إلينا ودعنا نستكشف العالم معًا .للتقدم للتوظائف الرجاء ملئ الاستمارة التالية :",
+        "Form_Full_Name":"الاسم الثلاثي ",
+        "Gender":"الجنس",
+        "Male":"ذكر",
+        "Female":"انثي",
+        "Merital_Status":"الحالة الاجتماعية",
+        "single":"اعزب ",
+        "marride":"متزوج",
+        "PlaceofBirth":"محل الميلاد",
+        "DateofBirth":"تأريخ الميلاد",
+
+        "Current_Place":"مكان الاقامة الحالي",
+        "PracticalQualification":"المؤهل العملي " ,
+        "SubmitNow":"ارسل الان",
+        "CVattached":"مرفق السيرة الذاتية"
+     }
 }

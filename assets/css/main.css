@@ -753,3 +753,185 @@ input[type=number] {
 .copyright-link:hover {
     color:#fff
 }
+
+
+/*join our team page*/
+.join-team .join-team-head{
+    padding-top: 4.313rem;
+    
+
+}
+.join-team .join-team-head h1{
+    font-size: 4.375rem;
+}
+.join-team .join-team-head p{
+    font-size: 1.875rem;
+}
+.join-team .content{
+    background-color: #FAF9FC;
+    text-align: center;
+    padding-top: 4rem;
+}
+.join-team .content h1{
+    font-weight: 600;
+    color: #484451;
+    font-size: 4rem;
+
+}
+.join-team .content p{
+    width: 80%;
+    margin: auto;
+    color: #484451;
+    font-size: 1.2rem;
+    
+}
+.join-team .join-form{
+    width: 80%;
+    margin: auto;
+    background-color: #FFFFFF;  
+    margin-top: 4rem;
+    border-radius: 40px;
+    
+    
+}
+.join-team .join-form input{
+    height: 4rem;
+    border-radius: 10px;
+}
+.join-team .join-form input[type=file]{
+    height: 10rem;
+    /* border-radius: 15px; */
+}
+.join-team .join-form .gender select{
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    height: 4rem;
+    border-radius: 10px;
+    
+}
+.join-team .join-form input::placeholder{
+color: #909090;
+opacity: 1;
+
+}
+.join-team .join-form .gender select {
+    -webkit-appearance: none;
+   -moz-appearance: none;
+   /* text-indent: 1px;
+   text-overflow: '';
+   background: url('~/assets/images/right-arrow.png') no-repeat 95% center !important; 
+   background-color: white !important; */
+}
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    /* display: none; */
+    -webkit-appearance: none;
+    color: #484451    ;
+
+
+}
+.join-team .join-form .gender select:first-child{
+    color: #909090;
+} 
+.join-team .join-form .arrow-img{
+    position: absolute;
+    top: 30%;
+    right: 15px;
+} 
+.join-team .join-form .arrow-img:dir(rtl){
+    right: 95%;
+} 
+.join-team .join-form button{
+    background-color: #97D3BF;
+    border-radius: 10px;
+    color: #FFF;
+
+}
+
+/* .form-control[type=file]{
+    background-color: #6C429A0D;
+    display: flex;
+    align-items: center;
+    text-align: center;
+} */
+.custom-file-input {
+    color: transparent;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px dashed #6C429A;
+    overflow: hidden;
+  }
+  .custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+  }
+  .custom-file-input::before {
+    content: 'CV attached ';
+    color: #6C429A;
+    display: inline-block;
+    /* background: -webkit-linear-gradient(top, #f9f9f9, #e3e3e3); */
+    background-color: #6C429A0D;
+    /* border: 1px solid #999; */
+    /* border-radius: 3px; */
+    padding: 5px 8px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    text-shadow: 1px 1px #fff;
+    font-weight: 700;
+    font-size: 16px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .custom-file-input:hover::before {
+    border-color: black;
+  }
+  .custom-file-input:active {
+    outline: 0;
+  }
+  .custom-file-input:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9); 
+    
+  }
+
+   .custom-file-input::after {
+    content: '';
+    color: #8D8D8D;
+    background-image: url(../images/paperclip.svg);
+    background-repeat: no-repeat;
+    
+    /* display: inline-block; */
+    /* background: -webkit-linear-gradient(top, #f9f9f9, #e3e3e3); */
+   
+    /* padding: 5px 8px; */
+    /* outline: none; */
+    /* white-space: nowrap; */
+    /* -webkit-user-select: none; */
+    cursor: pointer;
+    /* text-shadow: 1px 1px #fff; */
+    font-weight: 700;
+    font-size: 16px;
+    height: 35px;
+    width: 20px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red; */
+
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-55%);
+    z-index: 99;
+  }   

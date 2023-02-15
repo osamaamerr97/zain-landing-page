@@ -125,5 +125,23 @@
         "part3_des2":"We denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain.",
         "part3_des3":"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur."
 
-    }
+    },
+    "join_our_team":{
+        "Head":"Join Our Team",
+        "Head_des":"Home / Join Our Team",
+        "join_our_team_des":"Join our team Are you looking for a job that will give you the opportunity to explore amazing destinations? Join our team at Al Zain Global and be part of our exciting journey. We are a global travel company, committed to providing our clients with unforgettable experiences. Our employees enjoy flexible working hours, competitive wages and great opportunities to discover new places. If you are passionate and excited to discover the world, with us you will find the right job for you. Come join us and let's explore the world together. To apply for jobs, please fill out the following form:",
+        "Form_Full_Name":"Full Name",
+        "Gender":"Gender",
+        "Male":"Male",
+        "Female":"Female",
+        "Merital_Status":"Merital Status",
+        "single":"Single",
+        "marride":"marride",
+        "DateofBirth":"Date of Birth",
+        "PlaceofBirth":"Place of Birth",
+        "Current_Place":"Current Place",
+        "PracticalQualification":"Practical Qualification" ,
+        "SubmitNow":"Submit Now",
+        "CVattached":"CV attached"
+     }
 }
