@@ -3,7 +3,7 @@
     <div class="head">
             <div class="container">
                 <div class="privacy-head text-center">
-                    <h1>{{ $t('Privacy.Privacy_Policy') }}</h1>
+                    <h1 class="pb-4">{{ $t('Privacy.Privacy_Policy') }}</h1>
                      <p>{{ $t('Privacy.Home/Privacy Policy') }}</p>
                 </div>
             </div>
