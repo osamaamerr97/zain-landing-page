@@ -14,7 +14,7 @@
             <p class="mb-0">{{ $t('join_our_team.join_our_team_des') }}</p>
         
             <div class="join-form px-md-5 py-5">
-                <form @submit.prevent="onSubmit">
+                <form @submit.prevent="onSubmit(this)">
                     <!-- <h2 v-if="success" class="btn btn-success m-2 mb-4 text w-100">{{ fed_back_success }}</h2> -->
 
                     <div class="row gy-4 gx-3 ">
@@ -145,24 +145,24 @@ export default {
         }
     },
     methods: {
-        
+
     uploadImage(e){
-      const image = e.target.files[0];
+      this.join_team.cv = e.target.files[0];
     //   if (image.size > 250000) {
     //      alert(`File size is too big => max 250kB`);
     //      return null;
     //   } else {
-        const reader = new FileReader();
-        reader.readAsDataURL(image);
-        reader.addEventListener("load", () => {
-          if (typeof reader.result === "string") {
-            this.join_team.cv = reader.result;
-            console.log(this.join_team.cv);
-          }
-        });
+        // const reader = new FileReader();
+        // reader.readAsDataURL(image);
+        // reader.addEventListener("load", () => {
+        //   if (typeof reader.result === "string") {
+        //     this.join_team.cv = reader.result;
+        //     console.log(this.join_team.cv);
+        //   }
+        // });
     //   }
     },
-      async  onSubmit() {
+      async  onSubmit(form) {
             this.errors = {
                 full_name: null,
                 gender:null,
@@ -180,8 +180,20 @@ export default {
                 const headers = {
                     locale : 'ar'
                 }
+                
+                var formData = new FormData();
+                formData.append("full_name", this.join_team.full_name);
+                formData.append("gender", this.join_team.gender);
+                formData.append("marital_status", this.join_team.marital_status);
+                formData.append("phone_number", this.join_team.phone_number);
+                formData.append("email", this.join_team.email);
+                formData.append("date_of_birth", this.join_team.date_of_birth);
+                formData.append("place_of_birth", this.join_team.place_of_birth);
+                formData.append("current_place_of_residence", this.join_team.current_place_of_residence);
+                formData.append("practical_qualification", this.join_team.practical_qualification);
+                formData.append("cv", this.join_team.cv);
                 await axios
-                    .post('https://staging.zeintur.namaatests.com/api/v1/ztr/settings/hire', this.join_team, headers)
+                    .post('https://staging.zeintur.namaatests.com/api/v1/ztr/settings/hire', formData, headers)
                     .then(response => {
                         console.log(response);
                         if (response.data.code == 200) {
