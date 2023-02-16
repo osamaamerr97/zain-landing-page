@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-12 col-sm-6 col-lg-4">
                     <div class="footer-logo logo mt-4">
-                        <img src="@/assets/images/logo.png" alt="">
+                        <img src="@/assets/images/oldlogo.png" alt="">
                             <p class="footer-des fs-6 mt-5">{{ $t("Footer.des") }}</p>
                         
                             <div class="social">

@@ -4,7 +4,7 @@
           <div class="container">
             <nuxt-link class="navbar-brand" :to="localePath('/#home-head')">
               <div class="logo" >
-                <img src="~/assets/images/logo.png" alt="">
+                <img src="~/assets/images/oldlogo.png" alt="">
               </div>
             </nuxt-link>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
