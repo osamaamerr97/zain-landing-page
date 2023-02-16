@@ -106,12 +106,13 @@
                             </div>
                         </div>
                     </div>
+                    <div class="contact-form p-0 mt-2">
 
-                    
-                    <button v-if="!loading" type="submit"  class="btn py-3 mt-4">{{ $t("join_our_team.SubmitNow") }}</button>
-                    <!-- <span class="loading-contact" v-else>
-                        {{ $t("Contact.loading") }}
-                    </span> -->
+                        <button v-if="!loading" type="submit"  class="loading-contact">{{ $t("Contact.Form_Send_Now") }}</button>
+                        <span class="loading-contact" v-else>
+                            {{ $t("Contact.loading") }}
+                        </span>
+                    </div>
                 </form>
             </div>            
         </div>
@@ -119,6 +120,7 @@
 </div>
 </template>
 <script>
+import axios from 'axios'
 export default {
     data() {
         return {
@@ -146,10 +148,10 @@ export default {
         
     uploadImage(e){
       const image = e.target.files[0];
-      if (image.size > 250000) {
-        // alert(`File size is too big => max 250kB`);
-        // return null;
-      } else {
+    //   if (image.size > 250000) {
+    //      alert(`File size is too big => max 250kB`);
+    //      return null;
+    //   } else {
         const reader = new FileReader();
         reader.readAsDataURL(image);
         reader.addEventListener("load", () => {
@@ -158,7 +160,7 @@ export default {
             console.log(this.join_team.cv);
           }
         });
-      }
+    //   }
     },
       async  onSubmit() {
             this.errors = {
@@ -173,41 +175,44 @@ export default {
                 practical_qualification:null,
                 cv:null,
             };
-            console.log(this.join_team);
-            console.log(this.join_team.cv);
-            // this.loading = true;
-            // try {
-            //     const data = {
-            //         name : this.name,
-            //         email: this.email,
-            //         message: this.message,
-            //         phone_number: this.phone_number,
-            //     }
-            //     const headers = {
-            //         locale : 'ar'
-            //     }
-            //     await axios
-            //         .post(  'https://staging.zeintur.namaatests.com/api/v1/ztr/settings/contact-us', data, headers)
-            //         .then(response => {
-            //             if (response.data.code == 200) {
-            //                 this.success = true;
-            //                 this.fed_back_success = response.data.message
-            //             }
-            //             if (response.data.code == 422) {
-            //                 this.success = false;
-            //                 this.errors.name = response.data.errors.invalid_fields.find(e => e.field == 'name')?.message
-            //                 this.errors.email = response.data.errors.invalid_fields.find(e => e.field == 'email')?.message
-            //                 this.errors.message = response.data.errors.invalid_fields.find(e => e.field == 'message')?.message
-            //                 this.errors.phone_number = response.data.errors.invalid_fields.find(e => e.field == 'phone_number')?.message
-            //             }
-            //             this.loading = false;
-            //         })
-            //         .catch(error => {
-            //             this.loading = false;
-            //             //
-            //         })
-            // }catch(er) {
-            // }
+            this.loading = true;
+            try {
+                const headers = {
+                    locale : 'ar'
+                }
+                await axios
+                    .post('https://staging.zeintur.namaatests.com/api/v1/ztr/settings/hire', this.join_team, headers)
+                    .then(response => {
+                        console.log(response);
+                        if (response.data.code == 200) {
+                            this.success = true;
+                            this.fed_back_success = response.data.message
+                        }
+                        if (response.data.code == 422) {
+                            this.success = false;
+                            this.errors.full_name = response.data.errors.invalid_fields.find(e => e.field == 'full_name')?.message
+                            this.errors.gender = response.data.errors.invalid_fields.find(e => e.field == 'gender')?.message
+                            this.errors.marital_status = response.data.errors.invalid_fields.find(e => e.field == 'marital_status')?.message
+                            this.errors.phone_number = response.data.errors.invalid_fields.find(e => e.field == 'phone_number')?.message
+                            this.errors.email = response.data.errors.invalid_fields.find(e => e.field == 'email')?.message
+                            this.errors.date_of_birth = response.data.errors.invalid_fields.find(e => e.field == 'date_of_birth')?.message
+                            this.errors.place_of_birth = response.data.errors.invalid_fields.find(e => e.field == 'place_of_birth')?.message
+                            this.errors.current_place_of_residence = response.data.errors.invalid_fields.find(e => e.field == 'current_place_of_residence')?.message
+                            this.errors.practical_qualification = response.data.errors.invalid_fields.find(e => e.field == 'practical_qualification')?.message
+                            this.errors.cv = response.data.errors.invalid_fields.find(e => e.field == 'cv')?.message
+                            
+                        }
+                        this.loading = false;
+                    })
+                    .catch(error => {
+                        
+                        console.log(error);
+                        this.loading = false;
+                        //
+                    })
+            }catch(er) {
+                console.log(er);
+            }
         }
     }
 }
@@ -222,5 +227,14 @@ export default {
     color: #FFF;
     
 }  
+.errors {
+    color: #dc3545;
+    display: block;
+    text-align: end;
+    margin-left: 10px;
+    margin-top: 1px;
+    font-size: 14px;
+}
+
 
 </style>
