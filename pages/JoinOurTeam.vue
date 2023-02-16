@@ -201,18 +201,18 @@ export default {
                             this.fed_back_success = response.data.message
                         }
                         if (response.data.code == 422) {
+                            let { invalid_fields } = response.data.errors;
                             this.success = false;
-                            this.errors.full_name = response.data.errors.invalid_fields.find(e => e.field == 'full_name')?.message
-                            this.errors.gender = response.data.errors.invalid_fields.find(e => e.field == 'gender')?.message
-                            this.errors.marital_status = response.data.errors.invalid_fields.find(e => e.field == 'marital_status')?.message
-                            this.errors.phone_number = response.data.errors.invalid_fields.find(e => e.field == 'phone_number')?.message
-                            this.errors.email = response.data.errors.invalid_fields.find(e => e.field == 'email')?.message
-                            this.errors.date_of_birth = response.data.errors.invalid_fields.find(e => e.field == 'date_of_birth')?.message
-                            this.errors.place_of_birth = response.data.errors.invalid_fields.find(e => e.field == 'place_of_birth')?.message
-                            this.errors.current_place_of_residence = response.data.errors.invalid_fields.find(e => e.field == 'current_place_of_residence')?.message
-                            this.errors.practical_qualification = response.data.errors.invalid_fields.find(e => e.field == 'practical_qualification')?.message
-                            this.errors.cv = response.data.errors.invalid_fields.find(e => e.field == 'cv')?.message
-                            
+                            this.errors.full_name = invalid_fields.find(e => e.field == 'full_name')?.message
+                            this.errors.gender = invalid_fields.find(e => e.field == 'gender')?.message
+                            this.errors.marital_status = invalid_fields.find(e => e.field == 'marital_status')?.message
+                            this.errors.phone_number = invalid_fields.find(e => e.field == 'phone_number')?.message
+                            this.errors.email = invalid_fields.find(e => e.field == 'email')?.message
+                            this.errors.date_of_birth = invalid_fields.find(e => e.field == 'date_of_birth')?.message
+                            this.errors.place_of_birth = invalid_fields.find(e => e.field == 'place_of_birth')?.message
+                            this.errors.current_place_of_residence = invalid_fields.find(e => e.field == 'current_place_of_residence')?.message
+                            this.errors.practical_qualification = invalid_fields.find(e => e.field == 'practical_qualification')?.message
+                            this.errors.cv = invalid_fields.find(e => e.field == 'cv')?.message
                         }
                         this.loading = false;
                     })
