@@ -102,7 +102,7 @@ nav li.nav-item a, .lang{
     font-size: 16px;
 }
 .logo img{
-    width: 80px;
+    width: 50%;
 }
 .nav-link{
     color: #FFF;
@@ -789,10 +789,18 @@ input[type=number] {
     width: 80%;
     margin: auto;
     background-color: #FFFFFF;  
+    border-radius: 40px; 
     margin-top: 4rem;
-    border-radius: 40px;
-    
-    
+}
+@media screen and (max-width:768px) {
+    .join-team .join-form{
+        width: 100%;
+        margin: auto;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-top: 4rem;
+     
+    }
 }
 .join-team .join-form input{
     height: 4rem;
@@ -847,7 +855,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     right: 15px;
 } 
 .join-team .join-form .arrow-img:dir(rtl){
-    right: 95%;
+    right: 90%;
 } 
 .join-team .join-form button{
     background-color: #97D3BF;
@@ -880,7 +888,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     background-color: #6C429A0D;
     /* border: 1px solid #999; */
     /* border-radius: 3px; */
-    padding: 5px 8px;
+    padding: 90px 8px;
     outline: none;
     white-space: nowrap;
     -webkit-user-select: none;
