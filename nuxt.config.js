@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'new-zain',
+    title: 'landing-page',
     htmlAttrs: {
       
     },
@@ -88,15 +88,15 @@ export default {
 
   i18n: {
     locales: [
-      // {
-      //   code: 'en',
-      //   file: 'en.json',
-      //   name:'English',
-      //   dir: 'ltr'
+      {
+        code: 'en',
+        file: 'en.json',
+        name:'English',
+        dir: 'ltr'
 
 
         
-      // },
+      },
       {
         code: 'ar',
         file: 'ar.json',

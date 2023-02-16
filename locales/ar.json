@@ -13,7 +13,7 @@
         "Welcome_to":"أهلا بكم",
         "Zeni_Global":"الزين جلوبال للخدمات السياحية   ",
         "in_zeni_global":"في الزين جلوبال نحن ",
-        "head_des":" مكرسون لخلق تجارب لا تنسى لعملائنا. هدفنا هو تقديم خدمات عالية الجودة وتقديم تجربة لا تُنسى. حيث نقدم مجموعة واسعة من الخدمات، من تخطيط السفر والإقامة إلى الجولات والأنشطة المصحوبة بمرشدين. نحن نتفهم أن لكل عميل احتياجات وتوقعات مختلفة، لذلك نسعى جاهدين لتصميم خدماتنا وفقًا لاحتياجات كل فرد. فريق الخبراء لدينا متحمس للتأكد من أن كل رحلة هي رحلة لا تنسى.",
+        "head_des":"في الزين جلوبال نحن مكرسون لخلق تجارب لا تنسى لعملائنا. هدفنا هو تقديم خدمات عالية الجودة وتقديم تجربة لا تُنسى. حيث نقدم مجموعة واسعة من الخدمات، من تخطيط السفر والإقامة إلى الجولات والأنشطة المصحوبة بمرشدين. نحن نتفهم أن لكل عميل احتياجات وتوقعات مختلفة، لذلك نسعى جاهدين لتصميم خدماتنا وفقًا لاحتياجات كل فرد. فريق الخبراء لدينا متحمس للتأكد من أن كل رحلة هي رحلة لا تنسى.",
         "Read_More":"اقرأ المزيد"
     },
     "About":{
@@ -21,6 +21,8 @@
         "Zeni_Global":"الزين جلوبال ",
         "About_p1":"شركة الزين جلوبال السياحية، شركة تركية رائدة في مجال السياحة والسفر، والخدمات المساندة لهما؛ مقرها اسطنبول، ولديها تعامل مع أهم المنشآت السياحية التركية. حاصلة على ترخيص تورساب تحت الرقم 10036.",
         "About_p2":"شركة الزين جلوبال السياحية، شركة تركية رائدة في مجال السياحة والسفر، والخدمات المساندة لهما؛ مقرها اسطنبول، ولديها تعامل مع أهم المنشآت السياحية التركية. حاصلة على ترخيص تورساب تحت الرقم 10036.",
+        "fourth_para":"",
+        "fifth_para":"",
         "Read_More":"اقرأ المزيد",
         "ZENI_GLOBAL_Team":"فريق الزين جلوبال ",
         "Vision&Team":"رؤية الزين جلوبال ",
@@ -29,7 +31,8 @@
         "our_team":"فريقنا",
         "sec_para":"الزين جلوبال للسفر والسياحة تضم تحت مظلتها شركات عديدة متخصصة في خدمات السفر والسياحة والخدمات المكملة لها في دول العالم .من أجل تحقيق خدمات سياحية متكاملة من تاشيرات و برامج سياحية في مكان واحد.",
         "third_para":"تطمح في الزين جلوبال  الى أعطاء منظور جديد ورؤية مختلفة فى عالم السفر والسياحة عن طريق ابتكار فلسفة جديدة هدفها الاول والأسمى هو ارضاء كافة المسافرين والعمل على راحتهم و ذالك بتسهيل عملية السفر والحصول على التأشيرات المتاحة من خلال انجاز جميع الاجراءات وتجهيز كافة الملفات المطلوبة وتلبية جميع رغباتهم .",
-        "our_team_des":"لدينا فريق من المحترفين والخبراء بأسرار وخبايا الترفيه، متخصصون بالسياحة التركية، يضم أكثر من 150 محترف، من جنسيات متعددة، ونعمل بنظام متوافق مع قوانين العمل التركيةبطرق سهلة وخطوات بسيطة ، يوفر فريقنا كل ما تحتاج له من الخدمات والاستشارات السياحية لتنمية عملك في مجال السياحية بطرق احترافية "
+        "our_team_des":"لدينا فريق من المحترفين والخبراء بأسرار وخبايا الترفيه، متخصصون بالسياحة التركية، يضم أكثر من 150 محترف، من جنسيات متعددة، ونعمل بنظام متوافق مع قوانين العمل التركيةبطرق سهلة وخطوات بسيطة ، يوفر فريقنا كل ما تحتاج له من الخدمات والاستشارات السياحية لتنمية عملك في مجال السياحية بطرق احترافية ",
+        "our_team_des2":""
     },
     "Services":{
         "Our_Services":"خدماتنا",
@@ -82,7 +85,12 @@
         "loading":"الرجاء الانتظار",
         "Form_E-Mail":"الإيميل",
         "Form_Phone_Number":"رقم الهاتف",
-        "Form_Write_YourMessage_Here":"اكتب رسالتك"
+        "Form_Write_YourMessage_Here":"اكتب رسالتك",
+        "BeOurAgent":"كن وكيلنا",
+        "BeOurAgent_des1":"تفتخر الزين جلوبال بتقديم خدماتها الى الوكلاء والشركات بنظام العمل B2B ",
+        "BeOurAgent_des2":"حيث يتمتع أصحاب الشركات السياحية  بفرصة الانضمام إلى شبكة وكلاء الزين جلوبال كذلك يتيح الانضمام إلى هذه الشبكة لأصحاب الشركات السياحية  زيادة منطقة خدمتهم واكتساب عملاء جدد وإنشاء مساحة عمل جديدة . ",
+        "BeOurAgent_des3":"أن تصبح وكيلاً  لشركتنا هو طريقة رائعة لتكون جزءًا من عائلة أكبر مع تقديم خدمات سياحية متعععد ذات قيمة عالية ولا نهائية .",
+        "BeOurAgent_des4":"من خلال ملء نموذج تسجيل الوكيل بدقة وبشكل كامل يمكنك ان تكون وكيلاً لشركة الزين جلوبال بعد مراجعة البيانات المذكورة والتحقق منها."
     },
     "Footer":{
         "des":"من ملاذ الشاطئ إلى المغامرات المثيرة، لدينا شيء للجميع. تابعنا على وسائل التواصل الاجتماعي للبقاء على اطلاع دائم بجميع الباقات والعروض والعروض الترويجية المثيرة التي نقدمها. دعنا نساعدك في جعل رحلتك القادمة لا تنسى.",
@@ -112,5 +120,24 @@
         "part3_des1":"Lorem Ipsum is has been the industry’s stasn ndard dummy text ever since the 1500s, when an unknown printer took a galley of it to make. Lorem Ipsum is the simply dummy text of the printing and typesetting industry. When you are designing with Lorem Ipsum, you diminish the importance of the copy by lowering it to the same level as any other visual element. The text simply becomes another supporting role, serving to make other aspects more aesthetic. Instead of your design enhancing the meaning of the content, your content is enhancing your design.",
         "part3_des2":"We denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain.",
         "part3_des3":"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur."
-    }
+    },
+    "join_our_team":{
+        "Head":"انضم الى فريقنا ",
+        "Head_des":"الصفحة الرئيسية / انضم الى فريقنا  ",
+        "join_our_team_des":"هل تبحث عن وظيفة توفر لك فرصة استكشاف وجهات مذهلة؟ انضم إلى فريقنا فيالزين جلوبال وكن جزءًا من رحلتنا المثيرة. نحن شركة سياحة عالمية، ملتزمون بتقديم تجارب لا تُنسى لعملائنا. يتمتع موظفونا بساعات عمل مرنة وأجور تنافسية وفرص رائعة لاكتشاف أماكن جديدة. إذا كنت شغوفًا ومتحمسًا لاكتشاف العالم، معنا ستجد الوظيفة المناسبة لك. تعال وانضم إلينا ودعنا نستكشف العالم معًا .للتقدم للتوظائف الرجاء ملئ الاستمارة التالية :",
+        "Form_Full_Name":"الاسم الثلاثي ",
+        "Gender":"الجنس",
+        "Male":"ذكر",
+        "Female":"انثي",
+        "Merital_Status":"الحالة الاجتماعية",
+        "single":"اعزب ",
+        "marride":"متزوج",
+        "PlaceofBirth":"محل الميلاد",
+        "DateofBirth":"تأريخ الميلاد",
+
+        "Current_Place":"مكان الاقامة الحالي",
+        "PracticalQualification":"المؤهل العملي " ,
+        "SubmitNow":"ارسل الان",
+        "CVattached":"مرفق السيرة الذاتية"
+     }
 }

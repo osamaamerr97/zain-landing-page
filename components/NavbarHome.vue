@@ -30,7 +30,7 @@
 
                 </li>
                 <li class="nav-item">
-                  <nuxt-link class="nav-link" aria-current="page" :to="localePath('/#contact')">{{ $t("navbar.Be_Our_Agent") }}</nuxt-link>
+                  <nuxt-link class="nav-link" aria-current="page" :to="localePath('/JoinOurTeam')">{{ $t("navbar.Be_Our_Agent") }}</nuxt-link>
                   <!-- <nuxt-link class="nav-link" aria-current="page" :to="localePath('/#')">{{ $t("navbar.Be_Our_Agent") }}</nuxt-link> -->
 
                 </li>
