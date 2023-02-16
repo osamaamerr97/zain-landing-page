@@ -3,7 +3,7 @@
     <div class="head">
         <div class="container">
         <div class="join-team-head text-center">
-                <h1>{{ $t('join_our_team.Head') }}</h1>
+                <h1 class="pb-4">{{ $t('join_our_team.Head') }}</h1>
                 <p>{{ $t('join_our_team.Head_des') }}</p>
             </div>
         </div>
