@@ -2,16 +2,16 @@
     <div>
         <nav class="navbar navbar-expand-lg navbar-light">
           <div class="container">
+            <div class="logo" >
             <nuxt-link class="navbar-brand" :to="localePath('/#home-head')">
-              <div class="logo" >
                 <img src="~/assets/images/oldlogo.png" alt="">
-              </div>
-            </nuxt-link>
+              </nuxt-link>
+            </div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse " id="navbarNav">
-              <ul class="navbar-nav m-auto">
+              <ul class="navbar-nav">
                 <li class="nav-item">
                   <nuxt-link class="nav-link active-link" aria-current="page" :to="localePath('/#home-head')">{{ $t("navbar.Home") }}</nuxt-link>
                 </li>

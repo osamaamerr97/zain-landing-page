@@ -138,6 +138,8 @@
         "Current_Place":"مكان الاقامة الحالي",
         "PracticalQualification":"المؤهل العملي " ,
         "SubmitNow":"ارسل الان",
-        "CVattached":"مرفق السيرة الذاتية"
+        "CVattached":"مرفق السيرة الذاتية",
+        "File_uploaded":"تم رفع الملف بنجاح:"
+
      }
 }

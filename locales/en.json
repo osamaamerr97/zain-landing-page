@@ -142,6 +142,7 @@
         "Current_Place":"Current Place",
         "PracticalQualification":"Practical Qualification" ,
         "SubmitNow":"Submit Now",
-        "CVattached":"CV attached"
+        "CVattached":"CV attached",
+        "File_uploaded":"File uploaded:"
      }
 }

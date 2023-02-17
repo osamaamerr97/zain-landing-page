@@ -10,7 +10,7 @@
     font-family: 'calibri', sans-serif !important;    
 } 
 [dir=rtl] *:not(.fa, svg, i) {
-    font-family: 'Tajawal', sans-serif !important;
+    font-family:'Tajawals',sans-serif !important;
 } 
 a,
 li {
@@ -79,6 +79,14 @@ li {
     opacity: 1;
     background-color: #6C429A;
 }
+.navbar .navbar-nav{
+    margin-right: auto;
+    margin-left: 0;
+}
+.navbar .navbar-nav:dir(rtl) {
+    margin-right: 0;
+    margin-left: auto;
+}
 .navbar-contact-btn{
     background-color: transparent;
     border: 1px solid #FFFFFF;
@@ -93,6 +101,7 @@ li {
 }
 .navbar-contact-btn:hover{
     background-color: #97D3BF;
+    color: #FFFFFF;
     
 }
 nav li.nav-item, .lang {
@@ -101,16 +110,22 @@ nav li.nav-item, .lang {
 nav li.nav-item a, .lang{
     font-size: 16px;
 }
+.logo{
+    width: 230px;
+}
+.logo a{
+    width: 100%;
+}
 .logo img{
-    width: 50%;
+    width: 70%;
 }
 .nav-link{
     color: #FFF;
-    font-family: 'calibri', sans-serif !important;
+    /* font-family: 'calibri', sans-serif !important; */
 }  
 .nav-link:hover{
     color: #97D3BF;
-    font-family: 'calibri', sans-serif !important;
+    /* font-family: 'calibri', sans-serif !important; */
 }  
 .active-link{
     color: #97D3BF;
@@ -138,7 +153,7 @@ nav li.nav-item a, .lang{
     background-position: center center;
     background-size: 100% 100%;
     color: #FFF;
-    font-family: 'Poppins', sans-serif !important;
+    /* font-family: 'Poppins', sans-serif !important; */
 } 
 .head-span{
     color: #97D3BF;
@@ -204,8 +219,8 @@ nav li.nav-item a, .lang{
     font-weight: 700;
 }
 .about-description{
-    font-size: 1.125rem;
-    color: #484451;
+    font-size: 1.325rem;
+        color: #484451;
     letter-spacing: 0px;
     text-align: justify;
 
@@ -487,11 +502,10 @@ nav li.nav-item a, .lang{
     display: flex;
     align-items: center;
     justify-content: center;
-
     width: 100%;
-    height: 5rem;
-    border-radius: 15px;
-    background-color: #dc3545;
+    height: 4rem;
+    border-radius: 10px;
+    background-color: #ee616f;
     color: #FFF;
     border: none;
     font-size: 1.375rem;
