@@ -9,6 +9,7 @@
                         <p>{{ $t("Contact.BeOurAgent_des2") }}</p>
                         <p>{{ $t("Contact.BeOurAgent_des3") }}</p>
                         <p>{{ $t("Contact.BeOurAgent_des4") }}</p>
+                        <nuxt-link class="be_our_agent" :to="localePath('/#contact')">{{ $t("Contact.BeOurAgent") }}</nuxt-link>
                     </div>
                     <div class="col-12 col-md-4 img-container">
                         <img src="~/assets/images/Layer 1 copy.png" class="w-80" alt="">
@@ -68,4 +69,23 @@ export default {
     left: 0;
     z-index: -2;
 }    
+.be_our_agent {
+    display: block;
+    text-align: center;
+    border-radius: 40px;
+    background-color: #fff;
+    opacity: 1;
+    margin: 5px 0;
+    color: #97D3BF;
+    padding: 15px 0;
+    font-weight: 400;
+    font-size: 18px;
+    border: 1px solid #fff;
+    width: 170px;
+}
+.be_our_agent:hover {
+    
+    background-color: transparent;
+    color: #fff;
+}
 </style>

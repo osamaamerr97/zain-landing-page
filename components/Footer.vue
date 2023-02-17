@@ -26,6 +26,7 @@
                         <li><nuxt-link class="fs-5" :to="localePath('/#about')">{{ $t("Footer.About_Us") }}</nuxt-link></li>
                         <li><nuxt-link class="fs-5" :to="localePath('/#contact')">{{ $t("Footer.Contact_Us") }}</nuxt-link></li>
                         <li><nuxt-link class="fs-5" :to="localePath('/#faqs')">{{ $t("Footer.Faqs") }}</nuxt-link></li>
+                        <li><nuxt-link class="fs-5" :to="localePath('/#contact')">{{ $t("Contact.BeOurAgent") }}</nuxt-link></li>
   
                     </ul>             
                 </div>

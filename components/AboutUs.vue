@@ -8,7 +8,7 @@
                 <div class="col-12 col-lg-6 d-flex ">
                     <div class="about-content">
                         <h4 class="about-span">{{ $t("About.ABOUT_US") }}</h4>
-                        <!-- <h2 class="about-title">{{ $t("About.Zeni_Global") }}</h2> -->
+                        <!-- <h2 class="about-title">{{ $t("About.Alzein_Global") }}</h2> -->
                         <p class="about-description ">{{ $t("About.About_p1") }}</p>
                         <!-- <p class=" about-description about-second-description">{{ $t("About.About_p2") }} </p> -->
                         <p class="about-description about-second-description">{{ $t("About.sec_para") }}</p>
@@ -24,7 +24,7 @@
             <div class="row">
                 <div class="col-12 col-lg-6">
                     <div>
-                        <!-- <h4 class="about-span">{{ $t("About.ZENI_GLOBAL_Team") }}</h4> -->
+                        <!-- <h4 class="about-span">{{ $t("About.Alzein_GLOBAL_Team") }}</h4> -->
                         <h2 class="about-title mt-5 mb-5">{{ $t("About.Vision&Team") }}</h2>
                         <div class="about-collaps">
                             <details class="accordion">
