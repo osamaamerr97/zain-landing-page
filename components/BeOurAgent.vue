@@ -31,10 +31,7 @@ export default {
     /* height: 400px; */
     background-color: #97D3BF ;
     border-radius: 50px;
-    text-align: justify;
-    word-break: break-all;
-    
-    
+    text-align: justify;    
 }    
 .Be-Our-Agent .content h2{
     font-size: 2rem;

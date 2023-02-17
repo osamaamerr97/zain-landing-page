@@ -131,13 +131,11 @@ export default {
                     name : this.name,
                     email: this.email,
                     message: this.message,
+                    locale: this.$i18n.locale,
                     phone_number: this.phone_number,
                 }
-                const headers = {
-                    locale : 'ar'
-                }
                 await axios
-                    .post(  'https://staging.zeintur.namaatests.com/api/v1/ztr/settings/contact-us', data, headers)
+                    .post(  'https://staging.zeintur.namaatests.com/api/v1/ztr/settings/contact-us', data)
                     .then(response => {
                         if (response.data.code == 200) {
                             this.success = true;

@@ -177,11 +177,8 @@ export default {
             };
             this.loading = true;
             try {
-                const headers = {
-                    locale : 'ar'
-                }
-                
                 var formData = new FormData();
+                formData.append("locale", this.$i18n.locale);
                 formData.append("full_name", this.join_team.full_name);
                 formData.append("gender", this.join_team.gender);
                 formData.append("marital_status", this.join_team.marital_status);
@@ -193,7 +190,7 @@ export default {
                 formData.append("practical_qualification", this.join_team.practical_qualification);
                 formData.append("cv", this.join_team.cv);
                 await axios
-                    .post('https://staging.zeintur.namaatests.com/api/v1/ztr/settings/hire', formData, headers)
+                    .post('https://staging.zeintur.namaatests.com/api/v1/ztr/settings/hire', formData)
                     .then(response => {
                         console.log(response);
                         if (response.data.code == 200) {
@@ -231,22 +228,22 @@ export default {
 </script>
 <style scoped>
 .head{
-    /* background-image: url('@/assets/images/background.png');
-    background-position: center center;
-    background-size: 100% 100%; */
     background-color: #6C429A;
     padding-bottom: 4.313rem;
     color: #FFF;
     
 }  
-.errors {
+.errors{
+    text-align: left;
     color: #dc3545;
     display: block;
-    text-align: end;
     margin-left: 10px;
     margin-top: 1px;
     font-size: 14px;
 }
 
+[dir=rtl] .errors{
+    text-align: right!important;
+}
 
 </style>
