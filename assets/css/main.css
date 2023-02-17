@@ -80,12 +80,7 @@ li {
     background-color: #6C429A;
 }
 .navbar .navbar-nav{
-    margin-right: auto;
-    margin-left: 0;
-}
-.navbar .navbar-nav:dir(rtl) {
-    margin-right: 0;
-    margin-left: auto;
+    margin: auto;
 }
 .navbar-contact-btn{
     background-color: transparent;
@@ -111,13 +106,13 @@ nav li.nav-item a, .lang{
     font-size: 16px;
 }
 .logo{
-    width: 230px;
+    width: fit-content;
 }
 .logo a{
     width: 100%;
 }
 .logo img{
-    width: 70%;
+    width: 190px;
 }
 .nav-link{
     color: #FFF;
