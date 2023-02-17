@@ -15,7 +15,7 @@
         
             <div class="join-form px-md-5 py-5">
                 <form @submit.prevent="onSubmit(this)">
-                    <!-- <h2 v-if="success" class="btn btn-success m-2 mb-4 text w-100">{{ fed_back_success }}</h2> -->
+                    <h2 v-if="success" class="btn bg-success bg-opacity-75 m-2 py-3 mb-4 text-white w-100">{{ fed_back_success }}</h2>
 
                     <div class="row gy-4 gx-3 ">
                         <div class="col-12">
@@ -99,16 +99,22 @@
                             </div>
                         </div>
                         <div class="col-12">
-                            <div class="position-relative">
+                            <div v-if="!join_team.cv.name" class="position-relative">
                                 <input type="file" class="custom-file-input" name="cv" v-on="join_team.cv" @change="uploadImage"  accept="image/*,.pdf"/>
                                 <!-- <input type="file" class="form-control"  id="name" name="name" aria-describedby="name" :placeholder="$t('Contact.Form_Full_Name')"> -->
                                 <span v-if="errors.cv" class="errors">{{ errors.cv }}</span>
+                            </div>
+
+                            <div class="uploaded-file" v-else>
+                                <img src="~/assets/images/uploaded.png" class="uploaded-img" alt="">
+
+                                <p class="py-2"> {{$t("join_our_team.File_uploaded") }} <span>{{join_team.cv.name}}</span> </p>
                             </div>
                         </div>
                     </div>
                     <div class="contact-form p-0 mt-2">
 
-                        <button v-if="!loading" type="submit"  class="loading-contact">{{ $t("Contact.Form_Send_Now") }}</button>
+                        <button v-if="!loading" type="submit"  class="loading-contact">{{ $t("join_our_team.SubmitNow") }}</button>
                         <span class="loading-contact" v-else>
                             {{ $t("Contact.loading") }}
                         </span>
@@ -126,7 +132,7 @@ export default {
         return {
             errors: [],
             loading: false,
-
+            fileName:'',
             join_team:{
                 full_name: '',
                 gender:'',
@@ -148,6 +154,7 @@ export default {
 
     uploadImage(e){
       this.join_team.cv = e.target.files[0];
+      console.log(this.join_team.cv.name);
     //   if (image.size > 250000) {
     //      alert(`File size is too big => max 250kB`);
     //      return null;
@@ -245,5 +252,12 @@ export default {
 [dir=rtl] .errors{
     text-align: right!important;
 }
+.uploaded-file{
+    /* background-color: #6C429A; */
+    border-radius: 10px;
+}
+.uploaded-img{
+    width: 100px;
 
+}
 </style>
