@@ -36,7 +36,7 @@ export default {
   ],
 
   router: {
-    base: '/landing-page/',
+    base: '/',
     // middleware: 'language'
   },
 
@@ -87,6 +87,9 @@ export default {
   // },
 
   i18n: {
+    vueI18n: {
+      fallbackLocale: 'en'
+    },
     locales: [
       {
         code: 'en',
@@ -106,7 +109,7 @@ export default {
       }
     ],
     langDir: 'locales/',
-    defaultLocale: 'locales/ar.json'
+    defaultLocale: 'ar'
   },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
