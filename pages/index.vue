@@ -30,6 +30,11 @@ export default {
         ContactUs,
         BeOurAgent
         
+    },
+    head() {
+        return {
+            title: `${this.$t("navbar.Alzein Global")} - ${this.$t("navbar.Homepage")}`,
+        }
     }
 
 }

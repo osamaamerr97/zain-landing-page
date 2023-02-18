@@ -150,6 +150,11 @@ export default {
             fed_back_success: null,
         }
     },
+    head() {
+        return {
+            title: `${this.$t("navbar.Alzein Global")} - ${this.$t("join_our_team.Head")}`,
+        }
+    },
     methods: {
 
     uploadImage(e){
@@ -169,67 +174,67 @@ export default {
         // });
     //   }
     },
-      async  onSubmit(form) {
-            this.errors = {
-                full_name: null,
-                gender:null,
-                marital_status:null,
-                phone_number: null,
-                email: null,
-                date_of_birth:null,
-                place_of_birth:null,
-                current_place_of_residence:null,
-                practical_qualification:null,
-                cv:null,
-            };
-            this.loading = true;
-            try {
-                var formData = new FormData();
-                formData.append("locale", this.$i18n.locale);
-                formData.append("full_name", this.join_team.full_name);
-                formData.append("gender", this.join_team.gender);
-                formData.append("marital_status", this.join_team.marital_status);
-                formData.append("phone_number", this.join_team.phone_number);
-                formData.append("email", this.join_team.email);
-                formData.append("date_of_birth", this.join_team.date_of_birth);
-                formData.append("place_of_birth", this.join_team.place_of_birth);
-                formData.append("current_place_of_residence", this.join_team.current_place_of_residence);
-                formData.append("practical_qualification", this.join_team.practical_qualification);
-                formData.append("cv", this.join_team.cv);
-                await axios
-                    .post('https://staging.zeintur.namaatests.com/api/v1/ztr/settings/hire', formData)
-                    .then(response => {
-                        console.log(response);
-                        if (response.data.code == 200) {
-                            this.success = true;
-                            this.fed_back_success = response.data.message
-                        }
-                        if (response.data.code == 422) {
-                            let { invalid_fields } = response.data.errors;
-                            this.success = false;
-                            this.errors.full_name = invalid_fields.find(e => e.field == 'full_name')?.message
-                            this.errors.gender = invalid_fields.find(e => e.field == 'gender')?.message
-                            this.errors.marital_status = invalid_fields.find(e => e.field == 'marital_status')?.message
-                            this.errors.phone_number = invalid_fields.find(e => e.field == 'phone_number')?.message
-                            this.errors.email = invalid_fields.find(e => e.field == 'email')?.message
-                            this.errors.date_of_birth = invalid_fields.find(e => e.field == 'date_of_birth')?.message
-                            this.errors.place_of_birth = invalid_fields.find(e => e.field == 'place_of_birth')?.message
-                            this.errors.current_place_of_residence = invalid_fields.find(e => e.field == 'current_place_of_residence')?.message
-                            this.errors.practical_qualification = invalid_fields.find(e => e.field == 'practical_qualification')?.message
-                            this.errors.cv = invalid_fields.find(e => e.field == 'cv')?.message
-                        }
-                        this.loading = false;
-                    })
-                    .catch(error => {
-                        
-                        console.log(error);
-                        this.loading = false;
-                        //
-                    })
-            }catch(er) {
-                console.log(er);
-            }
+    async  onSubmit(form) {
+        this.errors = {
+            full_name: null,
+            gender:null,
+            marital_status:null,
+            phone_number: null,
+            email: null,
+            date_of_birth:null,
+            place_of_birth:null,
+            current_place_of_residence:null,
+            practical_qualification:null,
+            cv:null,
+        };
+        this.loading = true;
+        try {
+            var formData = new FormData();
+            formData.append("locale", this.$i18n.locale);
+            formData.append("full_name", this.join_team.full_name);
+            formData.append("gender", this.join_team.gender);
+            formData.append("marital_status", this.join_team.marital_status);
+            formData.append("phone_number", this.join_team.phone_number);
+            formData.append("email", this.join_team.email);
+            formData.append("date_of_birth", this.join_team.date_of_birth);
+            formData.append("place_of_birth", this.join_team.place_of_birth);
+            formData.append("current_place_of_residence", this.join_team.current_place_of_residence);
+            formData.append("practical_qualification", this.join_team.practical_qualification);
+            formData.append("cv", this.join_team.cv);
+            await axios
+                .post('https://staging.zeintur.namaatests.com/api/v1/ztr/settings/hire', formData)
+                .then(response => {
+                    console.log(response);
+                    if (response.data.code == 200) {
+                        this.success = true;
+                        this.fed_back_success = response.data.message
+                    }
+                    if (response.data.code == 422) {
+                        let { invalid_fields } = response.data.errors;
+                        this.success = false;
+                        this.errors.full_name = invalid_fields.find(e => e.field == 'full_name')?.message
+                        this.errors.gender = invalid_fields.find(e => e.field == 'gender')?.message
+                        this.errors.marital_status = invalid_fields.find(e => e.field == 'marital_status')?.message
+                        this.errors.phone_number = invalid_fields.find(e => e.field == 'phone_number')?.message
+                        this.errors.email = invalid_fields.find(e => e.field == 'email')?.message
+                        this.errors.date_of_birth = invalid_fields.find(e => e.field == 'date_of_birth')?.message
+                        this.errors.place_of_birth = invalid_fields.find(e => e.field == 'place_of_birth')?.message
+                        this.errors.current_place_of_residence = invalid_fields.find(e => e.field == 'current_place_of_residence')?.message
+                        this.errors.practical_qualification = invalid_fields.find(e => e.field == 'practical_qualification')?.message
+                        this.errors.cv = invalid_fields.find(e => e.field == 'cv')?.message
+                    }
+                    this.loading = false;
+                })
+                .catch(error => {
+                    
+                    console.log(error);
+                    this.loading = false;
+                    //
+                })
+        }catch(er) {
+            console.log(er);
         }
+    }
     }
 }
 </script>

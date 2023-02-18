@@ -44,7 +44,7 @@
                                     <div class="col-12 col-md-10">
                                         <div class="contact-title fs-5">{{ $t("Contact.Location") }}</div>
                                         <div class="contact-des fs-5 location">Port Saeed Business Avenue Tower Office 916 Dubai/UAE</div>
-                                        <div class="contact-des fs-5 mt-2 location">Kazlıçeşme, Yedimavi Blok G2 Ofis 6, Zeytinburnu/İstanbul/Turkiye</div>
+                                        <div class="contact-des fs-5 mt-2 fw-bold location">Kazlıçeşme, Yedimavi Blok G2 Ofis 6, Zeytinburnu/İstanbul/Turkiye</div>
                                     </div>
                             </div>
                         </div>
@@ -117,6 +117,7 @@ export default {
             fed_back_success: null,
         }
     },
+    
     methods: {
       async  onSubmit() {
             this.errors = {

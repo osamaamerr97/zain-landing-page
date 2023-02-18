@@ -81,6 +81,12 @@
 <script>
   export default {
 
+    head() {
+        return {
+            title: `${this.$t("navbar.Alzein Global")} - ${this.$t("Privacy.Privacy_Policy")}`,
+        }
+    }
+
   }  
 </script>
 <style scoped>
