@@ -17,27 +17,26 @@
                 </li>
                 <li class="nav-item">
                   <nuxt-link class="nav-link" aria-current="page" :to="localePath('/#about')">{{ $t("navbar.About_Us") }}</nuxt-link>
-
                 </li>
                 <li class="nav-item">
                   <nuxt-link class="nav-link" aria-current="page" :to="localePath('/#our-services')">{{ $t("navbar.Services") }}</nuxt-link>
                   <!-- <nuxt-link class="nav-link" aria-current="page" :to="localePath('/#')">{{ $t("navbar.Services") }}</nuxt-link> -->
-
                 </li>
                 <li class="nav-item">
                   <nuxt-link class="nav-link" aria-current="page" :to="localePath('/#destinations')">{{ $t("navbar.Destinations") }}</nuxt-link>
                   <!-- <nuxt-link class="nav-link" aria-current="page" :to="localePath('/#')">{{ $t("navbar.Destinations") }}</nuxt-link> -->
-
                 </li>
                 <li class="nav-item">
                   <nuxt-link class="nav-link" aria-current="page" :to="localePath('/JoinOurTeam')">{{ $t("navbar.Be_Our_Agent") }}</nuxt-link>
                   <!-- <nuxt-link class="nav-link" aria-current="page" :to="localePath('/#')">{{ $t("navbar.Be_Our_Agent") }}</nuxt-link> -->
-
                 </li>
                 <li class="nav-item">
                   <nuxt-link class="nav-link" aria-current="page" :to="localePath('/#faqs')">{{ $t("navbar.Faqs") }}</nuxt-link>
                   <!-- <nuxt-link class="nav-link" aria-current="page" :to="localePath('/#')">{{ $t("navbar.Faqs") }}</nuxt-link> -->
-
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" target="blank" href="https://alzeinglobal.com/b2b/forms/login.php">B2B</a>
+                  <!-- <nuxt-link class="nav-link" aria-current="page" :to="localePath('/#')">{{ $t("navbar.Faqs") }}</nuxt-link> -->
                 </li>
                 <li  class="nav-item " v-for="locale in availableLocales" :key="locale.code">
                   <nuxt-link class="nav-link lang position-relative" :to="switchLocalePath(locale.code)">{{ locale.name === 'Arabic'? "العربية" :  locale.name}}</nuxt-link>
