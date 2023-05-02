@@ -30,7 +30,7 @@
                             <div class="service-icon-container">
                                 <font-awesome-icon icon="fa-solid fa-hotel" class="service-icon"/>
                             </div>
-                        <h6 class="service-title">{{ $t("Services.Medical_Tourism") }}</h6>
+                        <h6 class="service-title" style="direction: rtl;">{{ $t("Services.Medical_Tourism") }}</h6>
                         <p class="service-des ">{{ $t("Services.Medical_Tourism_des") }}</p>
                         </div>
                     </div>

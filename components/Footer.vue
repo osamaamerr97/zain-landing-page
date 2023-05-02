@@ -14,7 +14,7 @@
                                     <a target="_blank" href="https://www.tiktok.com/@alzeinglobal"> <span><font-awesome-icon class="text-white icon" icon="fa-brands fa-tiktok" /></span></a >
                                     <a target="_blank" href="https://www.snapchat.com/@alzeinglobal"> <span><font-awesome-icon class="text-white icon" icon="fa-brands fa-snapchat" /></span></a >
                                     <a target="_blank" href="https://twitter.com/alzeinglobal"> <span><img width="15px" src="@/assets/images/twitter.png" alt=""></span></a >
-                                    <a target="_blank" href="https://www.youtube.com/alzeinglobal"> <span><img width="15px" src="@/assets/images/youtube.png" alt=""></span></a >
+                                    <a target="_blank" href="https://www.youtube.com/@alzeinglobal"> <span><img width="15px" src="@/assets/images/youtube.png" alt=""></span></a >
 
                             </div>
                 
