@@ -2,14 +2,16 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'landing-page',
-    htmlAttrs: {
-      
-    },
+    htmlAttrs: {},
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
+      {
+        name: 'facebook-domain-verification',
+        content: 'z82fevp0q8u9qy569here1gkzis5bo',
+      },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/icon.png' },
@@ -18,21 +20,17 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [ 
+  css: [
     '~/assets/scss/main.scss',
     '~/assets/css/main.css',
-    '@fortawesome/fontawesome-svg-core/styles.css'
-
-
-   ],
+    '@fortawesome/fontawesome-svg-core/styles.css',
+  ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    {src: '~/plugins/bootstrap.js', mode: 'client'},
+    { src: '~/plugins/bootstrap.js', mode: 'client' },
     '~/plugins/fontawesome.js',
-    {src: 'plugins/owl.js', ssr: false} // Only works on client side
-
-
+    { src: 'plugins/owl.js', ssr: false }, // Only works on client side
   ],
 
   router: {
@@ -51,7 +49,6 @@ export default {
     // https://go.nuxtjs.dev/axios
     // '@nuxtjs/axios',
     '@nuxtjs/i18n',
-
   ],
 
   // i18n: {
@@ -88,28 +85,24 @@ export default {
 
   i18n: {
     vueI18n: {
-      fallbackLocale: 'en'
+      fallbackLocale: 'en',
     },
     locales: [
       {
         code: 'en',
         file: 'en.json',
-        name:'English',
-        dir: 'ltr'
-
-
-        
+        name: 'English',
+        dir: 'ltr',
       },
       {
         code: 'ar',
         file: 'ar.json',
-        name:'Arabic',
-        dir: 'rtl'
-
-      }
+        name: 'Arabic',
+        dir: 'rtl',
+      },
     ],
     langDir: 'locales/',
-    defaultLocale: 'ar'
+    defaultLocale: 'ar',
   },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -119,6 +112,5 @@ export default {
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {}
-
+  build: {},
 }
